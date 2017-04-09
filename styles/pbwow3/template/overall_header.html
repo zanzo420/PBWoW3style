@@ -47,15 +47,19 @@
 </script>
 <!-- ENDIF -->
 <link href="{T_FONT_AWESOME_LINK}" rel="stylesheet">
-<link href="{T_STYLESHEET_LINK}" rel="stylesheet">
-<link href="{T_STYLESHEET_LANG_LINK}" rel="stylesheet">
+<link href="{ROOT_PATH}styles/prosilver/theme/stylesheet.css?assets_version=1" rel="stylesheet">
+<link href="{ROOT_PATH}styles/prosilver/theme/en/stylesheet.css?assets_version=1" rel="stylesheet">
+
+<link href="{T_STYLESHEET_LINK}" rel="alternative stylesheet">
+<link href="{ROOT_PATH}styles/pbwow4/theme/{T_THEME_LANG_NAME}/stylesheet.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
 
 <!-- IF S_CONTENT_DIRECTION eq 'rtl' -->
-	<link href="{T_THEME_PATH}/bidi.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
+	<link href="{ROOT_PATH}styles/prosilver/theme/bidi.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
+	<link href="{ROOT_PATH}styles/pbwow4/theme/bidi.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
 <!-- ENDIF -->
 
 <!-- IF S_PLUPLOAD -->
-	<link href="{T_THEME_PATH}/plupload.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
+	<link href="{ROOT_PATH}styles/prosilver/theme/plupload.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
 <!-- ENDIF -->
 
 <!-- IF S_COOKIE_NOTICE -->
@@ -63,7 +67,8 @@
 <!-- ENDIF -->
 
 <!--[if lte IE 9]>
-	<link href="{T_THEME_PATH}/tweaks.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
+<link href="{T_THEME_PATH}/tweaks.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
+<link href="{ROOT_PATH}styles/pbwow4/theme/tweaks.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
 <![endif]-->
 
 <!-- EVENT overall_header_head_append -->
@@ -75,8 +80,12 @@
 </head>
 <body id="phpbb" class="nojs notouch section-{SCRIPT_NAME} {S_CONTENT_DIRECTION} {T_THEME_NAME} {BODY_CLASS}">
 
-<!-- EVENT overall_header_body_before -->
+<!-- EVENT overall_header_bo‡dy_before -->
 
+
+
+
+‡
 <div id="wrap" class="wrap">
 	<a id="top" class="top-anchor" accesskey="t"></a>
 	<div id="page-header">
