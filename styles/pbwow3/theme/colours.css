@@ -310,6 +310,11 @@ Colours and backgrounds for buttons.css
     border-color: #5d5d5d;
 }
 
+.search-header {
+    box-shadow: none;
+}
+
+
 /* Icon images
 ---------------------------------------- */
 
