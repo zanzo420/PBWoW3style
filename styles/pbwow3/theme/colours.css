@@ -15,17 +15,12 @@ h2 {
     color: #F3E6D0;
 }
 
-h2 a { color: #F3E6D0; }
-h2 a:hover { color: #FFF; text-decoration: none; }
-h2 a:active { color: #00C0FF; }
 h2.solo { margin-bottom: 0.5em; }
 
 h3 {
     border-bottom: 1px solid #444;
     color: #888;
 }
-
-h3 a:hover { text-decoration: none; }
 
 .pm .postbody h3.first {
     color: #FFB019;
@@ -37,15 +32,41 @@ hr {
     border-top-color: #444;
 }
 
-/* Search box
---------------------------------------------- */
+/*
+--------------------------------------------------------------
+Colours and backgrounds for links.css
+-------------------------------------------------------------- */
 
-.search-box .inputbox {
-    border-color: #5d5d5d;
+h2 a { color: #F3E6D0; }
+h2 a:hover { color: #FFF; text-decoration: none; }
+h2 a:active { color: #00C0FF; }
+
+h3 a:hover { text-decoration: none; }
+
+/* Post body styles
+----------------------------------------*/
+
+
+/* Round cornered boxes and backgrounds
+---------------------------------------- */
+
+.wrap {
+    background-color: transparent;
+    border-color: #E6E9ED;
 }
 
-/* Content container styles
---------------------------------------------- */
+
+.headerbar, .forumbg {
+    background: transparent none repeat-x 0 0;
+}
+
+.forabg {
+    background: transparent none repeat-x 0 0;
+}
+
+.navbar {
+    background-color: #CADCEB;
+}
 
 .bg1	{
     background: rgba(49, 49, 49, 0.75);
@@ -122,6 +143,44 @@ blockquote:after {
     box-sizing: border-box;
 }
 
+/* Code block */
+.codebox {
+    background-color: rgba(10, 10, 10, 0.3);
+    border-color: #575757;
+    text-shadow: none;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.codebox p {
+    border-bottom-color: #575757;
+}
+
+.codebox code {
+    color: #4A7;
+    text-align: left;
+    max-height: 400px;
+}
+
+.syntaxbg { color: #555; }
+.syntaxcomment { color: #F0C674; }
+.syntaxdefault { color: #81A2BE; }
+.syntaxhtml { color: #AAA; }
+.syntaxkeyword { color: #B5BD68; }
+.syntaxstring { color: #C66; }
+
+code.inline {
+    background-color: rgba(10, 10, 10, 0.3);
+    border: 1px solid rgba(88, 88, 88, 0.7);
+    border-radius: 2px;
+    color: #4A7;
+    display: inline;
+    font-family: Monaco, 'Andale Mono', 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    font-style: normal;
+    line-height: 1.3em;
+    padding: 0 3px;
+}
+
 /* Attachments
 ----------------------------------------*/
 .attachbox {
@@ -149,6 +208,8 @@ blockquote:after {
 .attach-image img {
     border-color: #444;
 }
+
+/* Inline image thumbnails */
 
 .inline-attachment {
     /* TODO */
@@ -190,49 +251,83 @@ dl.thumbnail dt a:hover img,
     border: 1px solid #CD9000 !important; /* !important for lightbox script */
 }
 
+/* Post poll styles
+----------------------------------------*/
+
+/* Poster profile block
+----------------------------------------*/
+
 .posthilit {
     background-color: #CCC;
     color: #000;
     text-shadow: none;
 }
 
-/* Code block */
-.codebox {
-    background-color: rgba(10, 10, 10, 0.3);
-    border-color: #575757;
-    text-shadow: none;
-    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
+/*
+--------------------------------------------------------------
+Colours and backgrounds for buttons.css
+-------------------------------------------------------------- */
+
+/* Pagination
+---------------------------------------- */
+
+
+/* Search box
+--------------------------------------------- */
+
+.search-box .inputbox {
+    border-color: #5d5d5d;
 }
 
-.codebox p {
-    border-bottom-color: #575757;
-}
+/* Icon images
+---------------------------------------- */
 
-.codebox code {
-    color: #4A7;
-    text-align: left;
-    max-height: 400px;
-}
+/*
+--------------------------------------------------------------
+Colours and backgrounds for cp.css
+-------------------------------------------------------------- */
 
-.syntaxbg { color: #555; }
-.syntaxcomment { color: #F0C674; }
-.syntaxdefault { color: #81A2BE; }
-.syntaxhtml { color: #AAA; }
-.syntaxkeyword { color: #B5BD68; }
-.syntaxstring { color: #C66; }
+/* Main CP box
+----------------------------------------*/
 
-code.inline {
-    background-color: rgba(10, 10, 10, 0.3);
-    border: 1px solid rgba(88, 88, 88, 0.7);
-    border-radius: 2px;
-    color: #4A7;
-    display: inline;
-    font-family: Monaco, 'Andale Mono', 'Courier New', Courier, monospace;
-    font-size: 0.9em;
-    font-style: normal;
-    line-height: 1.3em;
-    padding: 0 3px;
-}
+/* Mini tabbed menu used in MCP
+----------------------------------------*/
 
+/* Responsive tabs
+----------------------------------------*/
 
+/* UCP navigation menu
+----------------------------------------*/
+
+/* Preferences pane layout
+----------------------------------------*/
+
+/* PM Styles
+----------------------------------------*/
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for forms.css
+-------------------------------------------------------------- */
+
+/* General form styles
+----------------------------------------*/
+
+/* Definition list layout for forms
+---------------------------------------- */
+
+/* Posting page styles
+----------------------------------------*/
+
+/* Input field styles
+---------------------------------------- */
+
+/* Form button styles
+---------------------------------------- */
+
+/* jQuery popups
+---------------------------------------- */
+
+/* Notifications
+---------------------------------------- */
 
