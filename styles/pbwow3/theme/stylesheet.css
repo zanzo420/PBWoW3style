@@ -39,7 +39,7 @@ body.pbwow3 {
 	background-attachment: scroll !important;
 }
 
-body.pbwow3 #logo {
+body.pbwow3 .site_logo {
 	background-image: none;
 	width: 266px;
 	height: 126px;
