@@ -56,7 +56,7 @@ h3 a:hover { text-decoration: none; }
 }
 
 
-.headerbar, .forumbg {
+.forumbg {
     background: transparent none repeat-x 0 0;
 }
 
@@ -101,9 +101,40 @@ h3 a:hover { text-decoration: none; }
 .post p.author {
     margin-left: 10px !important; /* TODO check */
 }
+/* Horizontal lists
+----------------------------------------*/
+
+ul.navlinks {
+    border-top-color: transparent;
+}
+
+
+/* Table styles
+----------------------------------------*/
+
+/* Misc layout styles
+---------------------------------------- */
+
+/* Icon styles
+---------------------------------------- */
+
+/* Miscellaneous styles
+---------------------------------------- */
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for content.css
+-------------------------------------------------------------- */
+
+/* Post body styles
+----------------------------------------*/
+
+/* Content container styles
+----------------------------------------*/
 
 /* BB Code styles
 ----------------------------------------*/
+
 /* Quote block */
 blockquote {
     background-color: rgba(10, 10, 10, 0.2);

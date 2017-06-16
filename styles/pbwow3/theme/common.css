@@ -28,7 +28,6 @@ h2 {
 
 h3 a:hover { text-decoration: none; }
 
-
 /* Main blocks
 ---------------------------------------- */
 .wrap {
@@ -142,7 +141,6 @@ h3 a:hover { text-decoration: none; }
 
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
-
 .headerbar {
     background: url("./images/forumliner-top.png") repeat-x 0 100%;
     border: none;
@@ -297,6 +295,10 @@ h3 a:hover { text-decoration: none; }
 
 /* Horizontal lists
 ----------------------------------------*/
+
+ul.navlinks {
+    border:none;
+}
 
 /* Bulletin icons for list items
 ----------------------------------------*/
