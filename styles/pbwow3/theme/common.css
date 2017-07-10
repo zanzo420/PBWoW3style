@@ -1,6 +1,5 @@
 /* General Markup Styles
 ---------------------------------------- */
-
 html {
     font-size: 62.5%;
     background-color: transparent;
@@ -42,11 +41,6 @@ h3 a:hover { text-decoration: none; }
     position: relative;
 }
 
-/*TODO check usage*/
-#simple-wrap {
-    padding: 0 0 10px;
-}
-
 .page-body {
     background: #000;
     background: url("./images/border-bot-left.gif") no-repeat 0 100%,
@@ -82,6 +76,13 @@ h3 a:hover { text-decoration: none; }
     display: block;
 }
 
+.page-footer {
+	clear: both;
+}
+
+.page-footer h3 {
+	margin-top: 20px;
+}
 
 .logo {
     display: block;
@@ -295,9 +296,83 @@ h3 a:hover { text-decoration: none; }
 
 /* Horizontal lists
 ----------------------------------------*/
+.navbar ul.linklist {
+	padding: 2px 0;
+	list-style-type: none;
+}
+
+ul.linklist {
+	display: block;
+	margin: 0;
+}
+
+.cp-main .panel {
+	padding: 5px 10px;
+}
+
+ul.linklist > li {
+	float: left;
+	font-size: 1.1em;
+	line-height: 2.2em;
+	list-style-type: none;
+	margin-right: 7px;
+	padding-top: 1px;
+	width: auto;
+}
+
+ul.linklist > li.rightside, p.rightside, a.rightside {
+	float: right;
+	margin-right: 0;
+	margin-left: 7px;
+	text-align: right;
+}
 
 ul.navlinks {
     border:none;
+}
+
+ul.leftside {
+	float: left;
+	margin-left: 0;
+	margin-right: 5px;
+	text-align: left;
+}
+
+ul.rightside {
+	float: right;
+	margin-left: 5px;
+	margin-right: -5px;
+	text-align: right;
+}
+
+ul.linklist li.responsive-menu {
+	position: relative;
+	margin: 0 5px 0 0;
+}
+
+.hasjs ul.linklist.leftside, .hasjs ul.linklist.rightside {
+	max-width: 48%;
+}
+
+.hasjs ul.linklist.fullwidth {
+	max-width: none;
+}
+
+li.responsive-menu.dropdown-right .dropdown {
+	left: -9px;
+}
+
+li.responsive-menu.dropdown-left .dropdown {
+	right: -6px;
+}
+
+ul.linklist .dropdown {
+	top: 22px;
+}
+
+ul.linklist .dropdown-up .dropdown {
+	bottom: 18px;
+	top: auto;
 }
 
 /* Bulletin icons for list items
@@ -313,11 +388,11 @@ ul.navlinks {
 /* Table styles
 ----------------------------------------*/
 table.table1 {
-    width: 100%;
+	width: 100%;
 }
 
 .ucp-main table.table1 {
-    padding: 2px;
+	padding: 2px;
 }
 
 .panel-container table.table1 {
@@ -334,7 +409,7 @@ table.table1 tbody th {
 }
 
 table.table1 thead th span {
-    padding-left: 7px;
+	padding-left: 7px;
 }
 
 table.table1 thead tr {
@@ -741,9 +816,6 @@ dl.icon {
     background-position: 8px 50%;
     position: relative;
 }
-
-/* Tables
---------------------------------------------- */
 
 
 /* Footer
