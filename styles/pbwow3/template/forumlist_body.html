@@ -1,5 +1,5 @@
 <!-- BEGIN forumrow -->
-	<!-- IF (forumrow.S_IS_CAT and not forumrow.S_FIRST_ROW) or forumrow.S_NO_CAT -->
+	<!-- IF (forumrow.S_IS_CAT and not forumrow.S_FIRST_ROW) or forumrow.S_NO_CAT  -->
 			</ul>
 
 			</div>
@@ -10,14 +10,14 @@
 	<!-- EVENT forumlist_body_category_header_before -->
 
 <!-- IF forumrow.S_IS_CAT or forumrow.S_FIRST_ROW or forumrow.S_NO_CAT -->
-					<!-- EVENT forumlist_body_category_header_row_prepend -->
+	<!-- EVENT forumlist_body_category_header_row_prepend -->
 	<!-- IF not S_INDEX and forumrow.S_FIRST_ROW and not forumrow.S_IS_CAT -->
 	<div class="no-collapse-box">
 	<!-- ELSE -->
 	<div id="category-{forumrow.FORUM_ID}" class="collapse-box">
 		<h2><!-- IF forumrow.S_IS_CAT --><a href="{forumrow.U_VIEWFORUM}">{forumrow.FORUM_NAME}</a><!-- ELSE -->{L_FORUMS}<!-- ENDIF --></h2>
 	<!-- ENDIF -->
-					<!-- EVENT forumlist_body_category_header_row_append -->
+	<!-- EVENT forumlist_body_category_header_row_append -->
 
 	<div class="forabg forum-blocks">
 		<div class="inner">
@@ -31,7 +31,7 @@
 			<!-- EVENT forumlist_body_forum_row_prepend -->
 			<dl<!-- IF forumrow.S_UNREAD_FORUM --> class="unread"<!-- ENDIF -->>
 				<dt title="{forumrow.FORUM_FOLDER_IMG_ALT}">
-					<!-- IF forumrow.FORUM_IMAGE --><div class="forum-image">{forumrow.FORUM_IMAGE}</div><!-- ENDIF -->
+					<!-- IF forumrow.FORUM_IMAGE --><span class="forum-image">{forumrow.FORUM_IMAGE}</span><!-- ENDIF -->
 					<a href="{forumrow.U_VIEWFORUM}" class="icon-link<!-- IF not forumrow.FORUM_IMAGE --> no-forum-image {forumrow.FORUM_IMG_STYLE}<!-- ENDIF -->"></a>
 
 					<!-- IF .forumrow.subforum and forumrow.S_LIST_SUBFORUMS -->

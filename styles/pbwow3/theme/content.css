@@ -1,4 +1,223 @@
 
+/* Content Styles
+---------------------------------------- */
+
+ul.topiclist {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+}
+
+ul.topiclist li {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+}
+
+ul.topiclist dl {
+	position: relative;
+}
+
+ul.topiclist li.row dl {
+	padding: 2px 0;
+}
+
+ul.topiclist dt, ul.topiclist dd {
+	display: block;
+	float: left;
+}
+
+ul.topiclist dt {
+	width: 100%;
+	margin-right: -440px;
+	font-size: 1.1em;
+}
+
+ul.topiclist.missing-column dt {
+	margin-right: -345px;
+}
+
+ul.topiclist.two-long-columns dt {
+	margin-right: -250px;
+}
+
+ul.topiclist.two-columns dt {
+	margin-right: -80px;
+}
+
+ul.topiclist dt .list-inner {
+	margin-right: 440px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+ul.topiclist.missing-column dt .list-inner {
+	margin-right: 345px;
+}
+
+ul.topiclist.two-long-columns dt .list-inner {
+	margin-right: 250px;
+}
+
+ul.topiclist.two-columns dt .list-inner {
+	margin-right: 80px;
+}
+
+ul.topiclist dd {
+	border-left: 1px solid transparent;
+	padding: 4px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ul.topiclist dfn {
+	/* Labels for post/view counts */
+	position: absolute;
+	left: -999px;
+	width: 990px;
+}
+
+.forum-image {
+	float: left;
+	padding-top: 5px;
+	margin-right: 5px;
+}
+
+li.row {
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+
+li.row strong {
+	font-weight: normal;
+}
+
+li.header dt, li.header dd {
+	line-height: 1em;
+	border-left-width: 0;
+	margin: 2px 0 4px 0;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+li.header dt {
+	font-weight: bold;
+	width: 100%;
+	margin-right: -440px;
+}
+
+li.header dt .list-inner {
+	margin-right: 440px;
+}
+
+li.header dd {
+	padding-left: 1px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+li.header dl.row-item dt, li.header dl.row-item dd {
+	min-height: 0;
+}
+
+li.header dl.row-item dt .list-inner {
+	/* Tweak for headers alignment when folder icon used */
+	padding-left: 0;
+	padding-right: 50px;
+}
+
+/* Forum list column styles */
+dl.row-item {
+	background-position: 10px 50%;		/* Position of folder icon */
+	background-repeat: no-repeat;
+}
+
+dl.row-item dt {
+	background-repeat: no-repeat;
+	background-position: 5px 95%;		/* Position of topic icon */
+}
+
+dl.row-item dt .list-inner {
+	padding-left: 45px;					/* Space for folder icon */
+}
+
+dl.row-item dt, dl.row-item dd {
+	min-height: 35px;
+}
+
+dl.row-item dt a {
+	display: inline;
+}
+
+dl a.row-item-link {						/* topic row icon links */
+	display: block;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -15px;
+	margin-left: 9px;
+}
+
+dd.posts, dd.topics, dd.views, dd.extra, dd.mark {
+	width: 80px;
+	text-align: center;
+	line-height: 2.2em;
+	font-size: 1.2em;
+}
+
+dd.posts, dd.topics, dd.views {
+	width: 95px;
+}
+
+/* List in forum description */
+dl.row-item dt ol,
+dl.row-item dt ul {
+	list-style-position: inside;
+	margin-left: 1em;
+}
+
+dl.row-item dt li {
+	display: list-item;
+	list-style-type: inherit;
+}
+
+dd.lastpost, dd.redirect, dd.moderation, dd.time, dd.info {
+	width: 250px;
+	font-size: 1.1em;
+}
+
+dd.redirect {
+	line-height: 2.5em;
+}
+
+dd.time {
+	line-height: 200%;
+}
+
+dd.lastpost > span, ul.topiclist dd.info > span, ul.topiclist dd.time > span, dd.redirect > span, dd.moderation > span {
+	display: block;
+	padding-left: 5px;
+}
+
+dd.extra, dd.mark {
+	line-height: 200%;
+}
+
+dd.option {
+	width: 125px;
+	line-height: 200%;
+	text-align: center;
+	font-size: 1.1em;
+}
+
 /* Post styling
 --------------------------------------------- */
 .post {
@@ -42,6 +261,8 @@
     background-color: #50420C;
 }
 
+/* Post body styles
+----------------------------------------*/
 .postbody {
     color: #CCC;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.7);
@@ -68,8 +289,9 @@
     padding: 5px 10px;
 }
 
-/* Post profiles
---------------------------------------------- */
+
+/* Poster profile block
+----------------------------------------*/
 .postprofile {
     background: none no-repeat 0 0;
     position: relative;
