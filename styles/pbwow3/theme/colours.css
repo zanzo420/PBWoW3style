@@ -76,11 +76,6 @@ h3 a:hover { text-decoration: none; }
     background: rgba(27, 27, 27, 0.75);
 }
 
-.content h2, .panel h2 {
-    color: #00C0FF;
-    border-bottom: 1px solid #666;
-}
-
 .postbody h3 {
     font-size: 1.2em;
 }
@@ -136,8 +131,8 @@ Colours and backgrounds for content.css
 }
 
 .content h2, .panel h2 {
-	color: #115098;
-	border-bottom-color:  #CCCCCC;
+    color: #00C0FF;
+    border-bottom: 1px solid #666;
 }
 
 dl.faq dt {

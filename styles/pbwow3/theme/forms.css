@@ -75,6 +75,25 @@ fieldset dl:hover dt label { color: #00C0FF; }
 
 fieldset.fields2 dl:hover dt label { color: #00C0FF; }
 
+/* Sort & Display options */
+.dropdown fieldset.display-options {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown fieldset.display-options label {
+    display: block;
+    margin: 4px;
+    padding: 0;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.dropdown fieldset.display-options select {
+    min-width: 120px;
+}
+
 fieldset.display-options.right-box { text-align: right; }
 
 fieldset.submit-buttons input { padding: 4px 6px; }
