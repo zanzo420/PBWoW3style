@@ -131,6 +131,37 @@ Colours and backgrounds for content.css
 
 /* Content container styles
 ----------------------------------------*/
+.content {
+	color: #CCC;  /* POST CONTENT */
+}
+
+.content h2, .panel h2 {
+	color: #115098;
+	border-bottom-color:  #CCCCCC;
+}
+
+dl.faq dt {
+	color: #333333;
+}
+
+.posthilit {
+	background-color: #F3BFCC;
+	color: #BC2A4D;
+}
+
+.announce, .unreadpost {
+	/* Highlight the announcements & unread posts box */
+}
+
+/* Post signature */
+.signature {
+	border-top-color: #CCCCCC;
+}
+
+/* Post noticies */
+.notice {
+	border-top-color:  #CCCCCC;
+}
 
 /* BB Code styles
 ----------------------------------------*/
