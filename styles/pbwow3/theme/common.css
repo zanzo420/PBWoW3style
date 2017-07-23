@@ -198,24 +198,6 @@ h3 a:hover { text-decoration: none; }
     padding: 0 0 0 15px;
 }
 
-.navbar li.breadcrumbs:before,
-#page-footer li.breadcrumbs:before {
-    content: '\f015';
-    display: block;
-    position: absolute;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    left: 0;
-    top: 0;
-    color: #888;
-    text-shadow: 0 0 2px #000;
-}
-
 .navbar .crumb a {
     padding: 0 3px;
     position: relative;
