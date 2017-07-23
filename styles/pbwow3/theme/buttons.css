@@ -19,6 +19,44 @@
     box-sizing: border-box;
 }
 
+/* Deprecated as of version 3.2
+-------------------------------------------------*/
+
+/* Icon images
+--------------------------------------------- */
+.small-icon {
+    background: none !important;
+    padding: 0;
+    position: relative;
+}
+
+.small-icon > a {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.small-icon > a:before,
+#top-bar .small-icon:before,
+.profile-context .user-icons a:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    color: #888;
+    text-shadow: 0 0 5px #000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: inherit;
+    text-decoration: none;
+    padding-right: 3px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.small-icon > a:hover:before {
+    color: #FFF;
+    text-shadow: 0 0 16px #009CFF;
+}
+
 .dropdown-select {
     padding-right: 5px;
 }
@@ -78,6 +116,7 @@
     height: auto;
 }
 
+
 .dropdown-select:after {
     border-color: #5D5D5D;
     content: "\f0d7";
@@ -92,41 +131,6 @@
 .dropdown-visible .dropdown-select:after,
 .nojs .dropdown-container:hover .dropdown-select:after {
     border-color: #238eff;
-}
-
-/* Icon images
---------------------------------------------- */
-.small-icon {
-    background: none !important;
-    padding: 0;
-    position: relative;
-}
-
-.small-icon > a {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-.small-icon > a:before,
-#top-bar .small-icon:before,
-.profile-context .user-icons a:before {
-    display: inline-block;
-    font-family: FontAwesome;
-    color: #888;
-    text-shadow: 0 0 5px #000;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: inherit;
-    text-decoration: none;
-    padding-right: 3px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.small-icon > a:hover:before {
-    color: #FFF;
-    text-shadow: 0 0 16px #009CFF;
 }
 
 .dropdown-contents .small-icon > a:before {
