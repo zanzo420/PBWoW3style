@@ -600,6 +600,8 @@ table.info tbody th {
     width: 35px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    padding: 0;
+    position: absolute;
 }
 
 .forum-blocks dl a.icon-link.no-forum-image {
