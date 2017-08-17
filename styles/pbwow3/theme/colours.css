@@ -387,6 +387,52 @@ Colours and backgrounds for forms.css
 /* Form button styles
 ---------------------------------------- */
 
+a.button1, input.button1, input.button3, a.button2, input.button2 {
+	color: #DDDDDD;
+    background-color: #1A1A1A; /* Old browsers */ /* FF3.6+ */
+    background-image: -webkit-linear-gradient(top, #3A3A3A 0%, #1A1A1A 100%);
+    background-image: linear-gradient(to bottom, #3A3A3A 0%,#1A1A1A 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3A3A3A', endColorstr='#1A1A1A',GradientType=0 ); /* IE6-9 */
+}
+
+a.button1, input.button1 {
+	border-color: #666666;
+}
+
+input.button3 {
+	background-image: none;
+}
+
+/* Alternative button */
+a.button2, input.button2, input.button3 {
+	border-color: #666666;
+}
+
+/* <a> button in the style of the form buttons */
+a.button1, a.button2 {
+	color: #000000;
+}
+
+/* Hover states */
+a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
+	border-color: #D31141;
+    color: #FFF;
+    background-color: #1A1A1A; /* Old browsers */ /* FF3.6+ */
+    background-image: -webkit-linear-gradient(top, #3A3A3A 0%, #1A1A1A 100%);
+    background-image: linear-gradient(to bottom, #3A3A3A 0%,#1A1A1A 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3A3A3A', endColorstr='#1A1A1A',GradientType=0 ); /* IE6-9 */
+}
+
+/* Focus states */
+input.button1:focus, input.button2:focus, input.button3:focus {
+	border-color: #11A3EA;
+	color: #0F4987;
+}
+
+input.disabled {
+	color: #666666;
+}
+
 /* jQuery popups
 ---------------------------------------- */
 
