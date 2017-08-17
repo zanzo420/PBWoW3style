@@ -68,6 +68,10 @@ h3 a:hover { text-decoration: none; }
     background-color: #CADCEB;
 }
 
+.panel {
+    color: #CADCEB;
+}
+
 .bg1	{
     background: rgba(49, 49, 49, 0.75);
 }
