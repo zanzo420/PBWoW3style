@@ -107,7 +107,7 @@ fieldset.submit-buttons input { padding: 4px 6px; }
 }
 
 #message-box textarea.drag-n-drop-highlight {
-    outline-color: rgba(17, 163, 234, 0.5);
+    outline-color: rgba(62, 1, 59, 0.96);
 }
 
 .inputbox {
@@ -115,8 +115,8 @@ fieldset.submit-buttons input { padding: 4px 6px; }
     border-color: #7F7F7F;
     color: #CCC;
 }
-.inputbox:hover { border-color: #11A3EA; }
-.inputbox:focus { border-color: #11A3EA; color: #FFF; }
+.inputbox:hover { border-color: #ea0b05; }
+.inputbox:focus { border-color: #ea0605; color: #FFF; }
 
 .inputbox:-moz-placeholder { color: #CCC; opacity: 0.5; }
 .inputbox::-moz-placeholder { color: #CCC; opacity: 0.5; }

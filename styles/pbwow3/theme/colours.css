@@ -352,6 +352,14 @@ Colours and backgrounds for cp.css
 /* Main CP box
 ----------------------------------------*/
 
+/* CP tabbed menu
+----------------------------------------*/
+.tabs .activetab > a,
+.tabs .activetab > a:hover {
+    box-shadow: none;
+}
+
+
 /* Mini tabbed menu used in MCP
 ----------------------------------------*/
 
