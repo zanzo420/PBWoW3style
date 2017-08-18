@@ -198,6 +198,84 @@ table.info tbody th {
 Colours and backgrounds for content.css
 -------------------------------------------------------------- */
 
+
+ul.topiclist li {
+    color: #CCCCCC;
+}
+
+
+li.row
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000 transparent #161616 transparent;
+    transition: background 0.15s ease-in-out 0s;
+}
+
+li.row:hover
+{
+    background-color: #1E1E1E;
+    background-color: rgba(30, 30, 30, 0.8);
+}
+
+li.row strong {
+    color: #FFF;
+}
+
+li.row.bg1
+{
+    background: #252525;
+    background: #252525 linear-gradient(to bottom, rgba(30, 30, 30, 1) 0, rgba(37, 37, 37, 0) 35px);
+    border-color: #252525 #000 #000 #252525;
+}
+
+li.row.bg1:hover
+{
+    background: #252525;
+    background: #252525 linear-gradient(to top, rgba(30, 30, 30, 1) 0, rgba(37, 37, 37, 0) 35px);
+    color: #FFF;
+}
+
+li.row.bg2
+{
+    background: #161616;
+    background: #161616 linear-gradient(to bottom, rgba(11, 11, 11, 1) 0, rgba(22, 22, 22, 0) 35px);
+    border-color: #161616 #000 #000 #161616;
+}
+
+li.row.bg2:hover
+{
+    background: #161616;
+    background: #161616 linear-gradient(to top, rgba(11, 11, 11, 1) 0, rgba(22, 22, 22, 0) 35px);
+    color: #FFF;
+}
+
+li.row.bg3 /* unread notifications */
+{
+    background: #333;
+    background: #333 linear-gradient(to bottom, rgba(40, 40, 40, 1) 0, rgba(51, 51, 51, 0) 35px);
+    border-color: #333 #000 #000 #333;
+}
+
+li.row.bg3:hover
+{
+    background: #333;
+    background: #333 linear-gradient(to top, rgba(40, 40, 40, 1) 0, rgba(51, 51, 51, 0) 35px);
+    color: #FFF;
+}
+
+li.row.reported,
+li.row.reported:hover
+{
+    background-image: linear-gradient(to bottom, rgba(255, 17, 17, 1) 0, rgba(255, 17, 17, 0.3) 2%, rgba(255, 0, 100, 0) 25%, rgba(255, 0, 100, 0) 75%, rgba(255, 17, 17, 0.3) 98%, rgba(255, 17, 17, 1) 100%);
+}
+
+li.row.reported:hover
+{
+    background-color: rgba(255, 17, 17, 0.3);
+}
+
+
 /* Post body styles
 ----------------------------------------*/
 
@@ -438,7 +516,6 @@ Colours and backgrounds for cp.css
     color: #FFFFFF;
 }
 
-
 .panel-container h3, .panel-container hr, .cp-menu hr {
     border-color: #444;
 }
@@ -447,6 +524,69 @@ Colours and backgrounds for cp.css
     border-bottom: transparent;
     border-top: transparent;
 }
+
+.panel-container .panel li.row {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000 transparent #161616 transparent;
+    transition: background 0.15s ease-in-out 0s;
+}
+
+.panel-container .panel li.row:hover {
+    background-color: #1E1E1E;
+    background-color: rgba(30, 30, 30, 0.8);
+}
+
+.panel-container li.header {
+    color: #FFF;
+}
+
+.panel-container .panel li.row.bg1 {
+    background: #252525;
+    background: #252525 linear-gradient(to bottom, rgba(30, 30, 30, 1) 0, rgba(37, 37, 37, 0) 35px);
+    border-color: #252525 #000 #000 #252525;
+}
+
+.panel-container .panel li.row.bg1:hover {
+    background: #252525;
+    background: #252525 linear-gradient(to top, rgba(30, 30, 30, 1) 0, rgba(37, 37, 37, 0) 35px);
+    color: #FFF;
+}
+
+.panel-container .panel li.row.bg2 {
+    background: #161616;
+    background: #161616 linear-gradient(to bottom, rgba(11, 11, 11, 1) 0, rgba(22, 22, 22, 0) 35px);
+    border-color: #161616 #000 #000 #161616;
+}
+
+.panel-container .panel li.row.bg2:hover {
+    background: #161616;
+    background: #161616 linear-gradient(to top, rgba(11, 11, 11, 1) 0, rgba(22, 22, 22, 0) 35px);
+    color: #FFF;
+}
+
+/* unread notifications */
+.panel-container .panel li.row.bg3 {
+    background: #333;
+    background: #333 linear-gradient(to bottom, rgba(40, 40, 40, 1) 0, rgba(51, 51, 51, 0) 35px);
+    border-color: #333 #000 #000 #333;
+}
+
+.panel-container .panel li.row.bg3:hover {
+    background: #333;
+    background: #333 linear-gradient(to top, rgba(40, 40, 40, 1) 0, rgba(51, 51, 51, 0) 35px);
+    color: #FFF;
+}
+
+.panel-container .panel li.row.reported,
+.panel-container .panel li.row.reported:hover {
+    background-image: linear-gradient(to bottom, rgba(255, 17, 17, 1) 0, rgba(255, 17, 17, 0.3) 2%, rgba(255, 0, 100, 0) 25%, rgba(255, 0, 100, 0) 75%, rgba(255, 17, 17, 0.3) 98%, rgba(255, 17, 17, 1) 100%);
+}
+
+.panel-container .panel li.row.reported:hover {
+    background-color: rgba(255, 17, 17, 0.3);
+}
+
 
 /* CP tabbed menu
 ----------------------------------------*/
