@@ -110,6 +110,84 @@ ul.navlinks {
 /* Table styles
 ----------------------------------------*/
 
+table.table1 tbody th {
+    background: #101010;
+    border-bottom: 1px solid #000000;
+    color: #CCC;
+}
+
+table.table1 thead tr {
+    background: #101010;
+    border: 1px solid #252525;
+}
+
+table.table1 tbody tr {
+    border-color: #161616;
+}
+
+table.table1 tbody tr.bg1,
+table.zebra-list tbody tr:nth-child(even) {
+    background: #252525;
+    background: #252525 linear-gradient(to bottom, rgba(30, 30, 30, 1) 0, rgba(37, 37, 37, 0) 35px);
+    border-color: #252525;
+}
+
+table.table1 tbody tr.bg2,
+table.zebra-list tbody tr:nth-child(odd) {
+    background: #161616;
+    background: #161616 linear-gradient(to bottom, rgba(11, 11, 11, 1) 0, rgba(22, 22, 22, 0) 35px);
+    border-color: #161616;
+}
+
+table.table1 tbody tr.bg3 {
+    background: #101010;
+    background: #101010 linear-gradient(to bottom, rgba(11, 11, 11, 1) 0, rgba(22, 22, 22, 0) 35px);
+    border-color: #101010;
+}
+
+table.table1 tbody tr.bg1:hover,
+table.table1 tbody tr.bg1.hover,
+table.zebra-list tbody tr:nth-child(even):hover {
+    background: #252525 linear-gradient(to top, rgba(30, 30, 30, 1) 0, rgba(37, 37, 37, 0) 35px);
+}
+
+table.table1 tbody tr.bg2:hover,
+table.table1 tbody tr.bg2.hover,
+table.zebra-list tbody tr:nth-child(odd):hover {
+    background: #161616 linear-gradient(to top, rgba(11, 11, 11, 1) 0, rgba(22, 22, 22, 0) 35px);
+}
+
+table.table1 tbody tr.bg3:hover,
+table.table1 tbody tr.bg3.hover {
+    background: #101010 linear-gradient(to top, rgba(11, 11, 11, 1) 0, rgba(22, 22, 22, 0) 35px);
+}
+
+table.table1 tbody tr:hover td,
+table.table1 tbody tr.hover td {
+    color: #FFF;
+}
+
+table.table1 td {
+    color: #bfbfbf;
+}
+
+/* Specific column styles */
+table.table1 tbody .big-column td {
+    color: #FFF;
+}
+
+table.info tbody th {
+    color: #FFF;
+}
+
+.panel-container table.table1 thead th {
+    color: #FFF;
+}
+
+
+
+
+
 /* Misc layout styles
 ---------------------------------------- */
 
