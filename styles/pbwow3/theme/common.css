@@ -183,61 +183,6 @@ h3 a:hover { text-decoration: none; }
     background-image: url("./images/forumliner-fix-left2.gif");
 }
 
-.navbar ul.linklist {
-    border: none;
-    padding: 0 25px;
-}
-
-.navbar ul.linklist > li {
-    line-height: 32px;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-.navbar li.breadcrumbs {
-    padding: 0 0 0 15px;
-}
-
-.navbar .crumb a {
-    padding: 0 3px;
-    position: relative;
-    text-decoration: none;
-}
-
-.navbar .crumb a:before {
-    content: '';
-    width: 100%;
-    height: 1px;
-    position: absolute;
-    bottom: 7px;
-    border-bottom: 1px dotted #8C6407;
-}
-
-.navbar .crumb a:hover:before {
-    border-bottom-color: #FFF;
-}
-
-.breadcrumbs .crumb:before {
-    content: '\f054';
-    color: #7C7C7C;
-    font-family: FontAwesome;
-    font-size: 0.9em;
-    font-weight: normal;
-    padding: 0 0.5em;
-    line-height: normal;
-}
-
-.breadcrumbs.locked .crumb:last-child:after {
-    content: '\f023';
-    font-family: FontAwesome;
-    font-size: 13px;
-    font-weight: normal;
-    vertical-align: middle;
-    position: absolute;
-    padding-left: 3px;
-}
-
-
 
 .forabg {
     border-radius: 0;
@@ -275,6 +220,24 @@ h3 a:hover { text-decoration: none; }
     /* placeholder*/
 }
 
+
+/* Horizontal lists
+----------------------------------------*/
+
+.navbar ul.linklist {
+    border: none;
+    padding: 0 25px;
+}
+
+.navbar ul.linklist > li {
+    line-height: 32px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar li.breadcrumbs {
+    padding: 0 0 0 15px;
+}
 
 /* Horizontal lists
 ----------------------------------------*/
@@ -365,7 +328,44 @@ ul.linklist .dropdown-up .dropdown {
 
 /* Responsive breadcrumbs
 ----------------------------------------*/
+.breadcrumbs .crumb:before {
+    content: '\f054';
+    color: #7C7C7C;
+    font-family: FontAwesome;
+    font-size: 0.9em;
+    font-weight: normal;
+    padding: 0 0.5em;
+    line-height: normal;
+}
 
+.breadcrumbs.locked .crumb:last-child:after {
+    content: '\f023';
+    font-family: FontAwesome;
+    font-size: 13px;
+    font-weight: normal;
+    vertical-align: middle;
+    position: absolute;
+    padding-left: 3px;
+}
+
+.navbar .crumb a {
+    padding: 0 3px;
+    position: relative;
+    text-decoration: none;
+}
+
+.navbar .crumb a:before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 7px;
+    border-bottom: 1px dotted #8C6407;
+}
+
+.navbar .crumb a:hover:before {
+    border-bottom-color: #FFF;
+}
 
 /* Table styles
 ----------------------------------------*/
@@ -448,10 +448,140 @@ table.info tbody th {
 /* Misc layout styles
 ---------------------------------------- */
 
+/* column[1-2] styles are containers for two column layouts */
+.column1 {
+	float: left;
+	clear: left;
+	width: 49%;
+}
 
+.column2 {
+	float: right;
+	clear: right;
+	width: 49%;
+}
+
+/* Action-bars (container for post/reply buttons, pagination, etc.)
+---------------------------------------- */
+.action-bar {
+    margin: 6px 3px;
+}
+
+
+/* Pagination
+---------------------------------------- */
+
+.action-bar.top .pagination {
+    margin-top: 5px;
+}
+
+.pagination li a {
+    background-color: #1A1A1A;
+    border-color: #575757;
+    color: #CCC;
+}
+
+.pagination li a:hover,
+.pagination .active a:hover,
+.pagination .dropdown-visible a.dropdown-trigger,
+.nojs .pagination .dropdown-container:hover a.dropdown-trigger {
+    background-color: #000;
+    border-color: #FFF;
+    color: #FFF;
+    text-decoration: none;
+    box-shadow: 0 0 5px 1px rgba(0, 192, 255, 0.7);
+}
+
+.pagination li.active span {
+    background-color: #0D1A2D;
+    border-color: #B28910;
+    color: #FFFFFF;
+}
+
+.pagination li.active span:hover {
+    background-color: #FFB019;
+    border-color: #FFB019;
+    color: #000;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.row .pagination {
+    background: url("./images/icons/icon_pages.png") 0 50% no-repeat;
+    font-size: 10px;
+}
+
+.pagination li.page-jump a, .pagination li.next a, .pagination li.previous a {
+    padding-left: 4px;
+    padding-right: 4px;
+    width: auto;
+}
+
+.pagination li.page-jump a:after, .pagination li.next a:after, .pagination li.previous a:after {
+    font-family: FontAwesome;
+    font-size: 10px;
+    font-weight: normal;
+    padding: 0;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.pagination li.page-jump a:after {
+    content: '\f124';
+    font-size: 12px;
+}
+
+.pagination li.next a:after {
+    content: '\f054';
+    padding-left: 1px;
+}
+
+.pagination li.previous a:after {
+    content: '\f053';
+    padding-right: 1px;
+}
+
+
+/* jQuery popups
+---------------------------------------- */
+
+.phpbb_alert {
+    background-color: #111;
+    border-color: #575757;
+    box-shadow: 0 0 10px #000;
+}
+
+.phpbb_alert .alert_close {
+    height: 20px;
+    width: 20px;
+}
+
+.phpbb_alert .alert_close:after {
+    content: '\f057';
+    color: #F00;
+    display: block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8em;
+    line-height: inherit;
+    text-align: center;
+}
+
+
+
+/* Miscellaneous styles
+---------------------------------------- */
+
+
+/* Navbar specific list items
+----------------------------------------*/
+
+/* ◊◊◊ below custom css to be checked for actual usage  ◊◊◊ */
 
 /* Index & forum lists
 --------------------------------------------- */
+
 .index-left {
     width: auto;
     margin-right: 312px;
@@ -759,79 +889,6 @@ dl.icon {
 
 /* Pagination
 --------------------------------------------- */
-.action-bar {
-    margin: 6px 3px;
-}
-
-.action-bar.top .pagination {
-    margin-top: 5px;
-}
-
-.pagination li a {
-    background-color: #1A1A1A;
-    border-color: #575757;
-    color: #CCC;
-}
-
-.pagination li a:hover,
-.pagination .active a:hover,
-.pagination .dropdown-visible a.dropdown-trigger,
-.nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-    background-color: #000;
-    border-color: #FFF;
-    color: #FFF;
-    text-decoration: none;
-    box-shadow: 0 0 5px 1px rgba(0, 192, 255, 0.7);
-}
-
-.pagination li.active span {
-    background-color: #0D1A2D;
-    border-color: #B28910;
-    color: #FFFFFF;
-}
-
-.pagination li.active span:hover {
-    background-color: #FFB019;
-    border-color: #FFB019;
-    color: #000;
-    text-decoration: none;
-    box-shadow: none;
-}
-
-.row .pagination {
-    background: url("./images/icons/icon_pages.png") 0 50% no-repeat;
-    font-size: 10px;
-}
-
-.pagination li.page-jump a, .pagination li.next a, .pagination li.previous a {
-    padding-left: 4px;
-    padding-right: 4px;
-    width: auto;
-}
-
-.pagination li.page-jump a:after, .pagination li.next a:after, .pagination li.previous a:after {
-    font-family: FontAwesome;
-    font-size: 10px;
-    font-weight: normal;
-    padding: 0;
-    line-height: normal;
-    vertical-align: middle;
-}
-
-.pagination li.page-jump a:after {
-    content: '\f124';
-    font-size: 12px;
-}
-
-.pagination li.next a:after {
-    content: '\f054';
-    padding-left: 1px;
-}
-
-.pagination li.previous a:after {
-    content: '\f053';
-    padding-right: 1px;
-}
 
 /* Rules & Errors
 --------------------------------------------- */
@@ -1182,25 +1239,3 @@ li.notification-reported strong, li.notification-disapproved strong {
 .profile-context a.icon-search { background-position: 0 -30px; }
 .profile-context a.icon-ignore { background-position: 0 -60px; }
 
-.phpbb_alert {
-    background-color: #111;
-    border-color: #575757;
-    box-shadow: 0 0 10px #000;
-}
-
-.phpbb_alert .alert_close {
-    height: 20px;
-    width: 20px;
-}
-
-.phpbb_alert .alert_close:after {
-    content: '\f057';
-    color: #F00;
-    display: block;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.8em;
-    line-height: inherit;
-    text-align: center;
-}
