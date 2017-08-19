@@ -16,6 +16,7 @@ ul.topiclist li {
 
 ul.topiclist dl {
 	position: relative;
+	font-size: 10px;
 }
 
 ul.topiclist li.row dl {
@@ -30,7 +31,38 @@ ul.topiclist dt, ul.topiclist dd {
 ul.topiclist dt {
 	width: 100%;
 	margin-right: -440px;
-	font-size: 1.1em;
+}
+
+ul.topiclist dt, dd.lastpost, dd.redirect, dd.moderation, dd.time, dd.info, dd.extra {
+	font-size: 10px;
+}
+
+ul.topiclist li.row .list-inner {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+
+ul.topiclist dd {
+	border: none;
+}
+
+ul.topiclist a.topictitle {
+	font-size: 13px;
+}
+
+li.header dt, li.header dd {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+li.header dl.icon dt {
+	text-indent: 5px;
+}
+
+dl.icon {
+	background-position: 8px 50%;
+	position: relative;
 }
 
 ul.topiclist.missing-column dt {
@@ -127,7 +159,7 @@ li.header dl.row-item dt, li.header dl.row-item dd {
 
 li.header dl.row-item dt .list-inner {
 	/* Tweak for headers alignment when folder icon used */
-	padding-left: 0;
+	padding-left: 8px;
 	padding-right: 50px;
 }
 

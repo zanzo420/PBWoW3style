@@ -27,6 +27,13 @@ h2 {
 
 h3 a:hover { text-decoration: none; }
 
+i, em {
+    font-style: italic;
+}
+
+
+
+
 /* Main blocks
 ---------------------------------------- */
 .wrap {
@@ -471,44 +478,26 @@ table.info tbody th {
 /* Pagination
 ---------------------------------------- */
 
+.fa-clone {
+    font-size: 11px;
+}
+
 .action-bar.top .pagination {
     margin-top: 5px;
 }
 
 .pagination li a {
-    background-color: #1A1A1A;
-    border-color: #575757;
-    color: #CCC;
-}
-
-.pagination li a:hover,
-.pagination .active a:hover,
-.pagination .dropdown-visible a.dropdown-trigger,
-.nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-    background-color: #000;
-    border-color: #FFF;
-    color: #FFF;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    display: block;
+    font-size: 0.7em;
+    font-weight: normal;
+    line-height: 1.4em;
+    min-width: 10px;
+    padding: 3px;
+    text-align: center;
     text-decoration: none;
-    box-shadow: 0 0 5px 1px rgba(0, 192, 255, 0.7);
-}
-
-.pagination li.active span {
-    background-color: #0D1A2D;
-    border-color: #B28910;
-    color: #FFFFFF;
-}
-
-.pagination li.active span:hover {
-    background-color: #FFB019;
-    border-color: #FFB019;
-    color: #000;
-    text-decoration: none;
-    box-shadow: none;
-}
-
-.row .pagination {
-    background: url("./images/icons/icon_pages.png") 0 50% no-repeat;
-    font-size: 10px;
+    font-family: Verdana,Helvetica,Arial,sans-serif;
 }
 
 .pagination li.page-jump a, .pagination li.next a, .pagination li.previous a {
@@ -526,6 +515,7 @@ table.info tbody th {
     vertical-align: middle;
 }
 
+/*
 .pagination li.page-jump a:after {
     content: '\f124';
     font-size: 12px;
@@ -539,6 +529,16 @@ table.info tbody th {
 .pagination li.previous a:after {
     content: '\f053';
     padding-right: 1px;
+}
+*/
+
+/* Pagination in viewforum for multipage topics */
+.row .pagination {
+    display: block;
+    margin-top: 1px;
+    background: url("./images/icons/icon_pages.png") 0 50% no-repeat;
+    background: none;
+    font-size: 10px;
 }
 
 
@@ -759,42 +759,6 @@ table.info tbody th {
 
 /* Topic lists
 --------------------------------------------- */
-
-ul.topiclist dl {
-    font-size: 10px;
-}
-
-ul.topiclist dt, dd.lastpost, dd.redirect, dd.moderation, dd.time, dd.info, dd.extra {
-    font-size: 10px;
-}
-
-ul.topiclist li.row .list-inner {
-    padding-top: 3px;
-    padding-bottom: 3px;
-}
-
-ul.topiclist dd {
-    border: none;
-}
-
-ul.topiclist a.topictitle {
-    font-size: 13px;
-}
-
-li.header dt, li.header dd {
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-li.header dl.icon dt {
-    text-indent: 5px;
-}
-
-dl.icon {
-    background-position: 8px 50%;
-    position: relative;
-}
-
 
 /* Footer
 --------------------------------------------- */

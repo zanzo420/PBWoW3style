@@ -198,7 +198,6 @@ table.info tbody th {
 Colours and backgrounds for content.css
 -------------------------------------------------------------- */
 
-
 ul.topiclist li {
     color: #CCCCCC;
 }
@@ -482,6 +481,41 @@ Colours and backgrounds for buttons.css
 
 /* Pagination
 ---------------------------------------- */
+
+.pagination li a {
+    background: #1A1A1A;
+    filter: none;
+    border-color: #575757;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    color: #CCC;
+}
+
+
+.pagination li a:hover,
+.pagination .active a:hover,
+.pagination .dropdown-visible a.dropdown-trigger,
+.nojs .pagination .dropdown-container:hover a.dropdown-trigger {
+    background-color: #000;
+    border-color: #FFF;
+    color: #FFF;
+    text-decoration: none;
+    box-shadow: 0 0 5px 1px rgba(0, 192, 255, 0.7);
+}
+
+.pagination li.active span {
+    background-color: #0D1A2D;
+    border-color: #B28910;
+    color: #FFFFFF;
+}
+
+.pagination li.active span:hover {
+    background-color: #FFB019;
+    border-color: #FFB019;
+    color: #000;
+    text-decoration: none;
+    box-shadow: none;
+}
 
 
 /* Search box
