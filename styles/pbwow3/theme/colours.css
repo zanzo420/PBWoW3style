@@ -193,6 +193,16 @@ table.info tbody th {
 /* Miscellaneous styles
 ---------------------------------------- */
 
+.reported {
+    background-color: transparent;
+}
+
+.reported {
+    background-color: red;
+}
+
+
+
 /*
 --------------------------------------------------------------
 Colours and backgrounds for content.css
@@ -263,17 +273,19 @@ li.row.bg3:hover
     color: #FFF;
 }
 
-li.row.reported,
-li.row.reported:hover
+/* the _pbwow class is needed because of !important usage in prosilver 3.2 */
+li.row.pbwow.reported,
+li.row.pbwow.reported:hover,
+li.pbwow.reported:hover
 {
-    background-image: linear-gradient(to bottom, rgba(255, 17, 17, 1) 0, rgba(255, 17, 17, 0.3) 2%, rgba(255, 0, 100, 0) 25%, rgba(255, 0, 100, 0) 75%, rgba(255, 17, 17, 0.3) 98%, rgba(255, 17, 17, 1) 100%);
+    background-image: linear-gradient(to bottom, rgba(255, 17, 17, 1) 0,
+    rgba(255, 17, 17, 0.3) 2%, rgba(255, 0, 100, 0) 25%, rgba(255, 0, 100, 0) 75%,
+    rgba(255, 17, 17, 0.3) 98%, rgba(255, 17, 17, 1) 100%) !important;
 }
 
-li.row.reported:hover
-{
-    background-color: rgba(255, 17, 17, 0.3);
+li.pbwow.reported:hover {
+    background-color: rgba(255, 17, 17, 0.3) !important;
 }
-
 
 /* Post body styles
 ----------------------------------------*/
@@ -710,23 +722,6 @@ Colours and backgrounds for cp.css
 .navigation .active-subsection a:hover {
     color: #00C0FF;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
