@@ -4,7 +4,7 @@ Colours and backgrounds for common.css
 -------------------------------------------------------------- */
 
 html, body {
-	color: #CCCCCC;
+	color: #E1C492E1C492;
 }
 
 h1 {
@@ -98,11 +98,11 @@ a.arrow-up:hover, a.arrow-down:hover, a.arrow-left:hover, a.arrow-right:hover {
 }
 
 .navbar {
-    background-color: #CADCEB;
+    background-color: #E1C492;
 }
 
 .panel {
-    color: #CADCEB;
+    color: #E1C492;
 }
 
 .bg1	{
@@ -147,7 +147,7 @@ ul.navlinks {
 table.table1 tbody th {
     background: #101010;
     border-bottom: 1px solid #000000;
-    color: #CCC;
+    color: #E1C492;
 }
 
 table.table1 thead tr {
@@ -240,7 +240,7 @@ table.info tbody th {
 Colours and backgrounds for content.css
 -------------------------------------------------------------- */
 ul.topiclist li {
-    color: #CCCCCC;
+    color: #E1C492E1C492;
 }
 
 li.row
@@ -323,7 +323,7 @@ li.pbwow.reported:hover {
 /* Content container styles
 ----------------------------------------*/
 .content {
-	color: #CCC;  /* POST CONTENT */
+	color: #E1C492;  /* POST CONTENT */
 }
 
 .content h2, .panel h2 {
@@ -346,12 +346,12 @@ dl.faq dt {
 
 /* Post signature */
 .signature {
-	border-top-color: #CCCCCC;
+	border-top-color: #E1C492E1C492;
 }
 
 /* Post noticies */
 .notice {
-	border-top-color:  #CCCCCC;
+	border-top-color:  #E1C492E1C492;
 }
 
 /* BB Code styles
@@ -362,7 +362,7 @@ blockquote {
     background-color: rgba(10, 10, 10, 0.2);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0) 30%);
     border-color: #575757;
-    color: #CCCCCC;
+    color: #E1C492E1C492;
     padding: 6px 10px 10px 10px;
     position: relative;
     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.4);
@@ -511,7 +511,7 @@ dl.thumbnail dt a:hover img,
 ----------------------------------------*/
 
 .posthilit {
-    background-color: #CCC;
+    background-color: #E1C492;
     color: #000;
     text-shadow: none;
 }
@@ -550,7 +550,7 @@ Colours and backgrounds for buttons.css
 .button-secondary:hover,
 .button:focus .icon,
 .button:hover .icon {
-	color: #C77E19;
+	color: #FFFFFF;
 }
 
 .button-search:hover,
@@ -573,7 +573,7 @@ Colours and backgrounds for buttons.css
     border-color: #575757;
     box-shadow: none;
     -webkit-box-shadow: none;
-    color: #CCC;
+    color: #E1C492;
 }
 
 
@@ -800,8 +800,6 @@ Colours and backgrounds for cp.css
 .navigation .active-subsection a:hover {
     color: #00C0FF;
 }
-
-
 
 /* Preferences pane layout
 ----------------------------------------*/
