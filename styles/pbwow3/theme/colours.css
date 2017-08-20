@@ -4,7 +4,7 @@ Colours and backgrounds for common.css
 -------------------------------------------------------------- */
 
 html, body {
-	color: #E1C492E1C492;
+	color: #E1C492;
 }
 
 h1 {
@@ -240,7 +240,7 @@ table.info tbody th {
 Colours and backgrounds for content.css
 -------------------------------------------------------------- */
 ul.topiclist li {
-    color: #E1C492E1C492;
+    color: #E1C492;
 }
 
 li.row
@@ -346,12 +346,12 @@ dl.faq dt {
 
 /* Post signature */
 .signature {
-	border-top-color: #E1C492E1C492;
+	border-top-color: #E1C492;
 }
 
 /* Post noticies */
 .notice {
-	border-top-color:  #E1C492E1C492;
+	border-top-color:  #E1C492;
 }
 
 /* BB Code styles
@@ -362,7 +362,7 @@ blockquote {
     background-color: rgba(10, 10, 10, 0.2);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0) 30%);
     border-color: #575757;
-    color: #E1C492E1C492;
+    color: #E1C492;
     padding: 6px 10px 10px 10px;
     position: relative;
     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.4);
