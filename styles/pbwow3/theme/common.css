@@ -577,11 +577,8 @@ table.info tbody th {
 /* Navbar specific list items
 ----------------------------------------*/
 
-/* ◊◊◊ below custom css to be checked for actual usage  ◊◊◊ */
-
-/* Index & forum lists
+/* pbWoW
 --------------------------------------------- */
-
 .index-left {
     width: auto;
     margin-right: 312px;
@@ -592,7 +589,6 @@ table.info tbody th {
     float: right;
     width: 302px;
 }
-
 
 .forum-blocks {
     padding: 0;

@@ -32,6 +32,18 @@ hr {
     border-top-color: #444;
 }
 
+/* pbWoW
+--------------------------------------------- */
+
+/* Hover states */
+.forum-blocks dl:hover {
+    border-color: #C77E19;
+}
+
+.forum-blocks dl:hover .list-inner {
+    color: #FFF;
+}
+
 /*
 --------------------------------------------------------------
 Colours and backgrounds for links.css
@@ -223,17 +235,13 @@ table.info tbody th {
     background-color: red;
 }
 
-
-
 /*
 --------------------------------------------------------------
 Colours and backgrounds for content.css
 -------------------------------------------------------------- */
-
 ul.topiclist li {
     color: #CCCCCC;
 }
-
 
 li.row
 {
@@ -319,7 +327,7 @@ li.pbwow.reported:hover {
 }
 
 .content h2, .panel h2 {
-    color: #00C0FF;
+    color: #69707C;
     border-bottom-color: #666;
 }
 
@@ -512,6 +520,49 @@ dl.thumbnail dt a:hover img,
 --------------------------------------------------------------
 Colours and backgrounds for buttons.css
 -------------------------------------------------------------- */
+.button {
+    background-color: #222; /* Old browsers */ /* FF3.6+ */
+    background-image: none;
+    box-shadow: 0 0 0 1px #373737 inset;
+    -webkit-box-shadow: 0 0 0 1px #373737 inset;
+    filter: none;
+    border-color: #5D5D5D;
+    color: #FFB019;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #EB7C16; /* Old browsers */ /* FF3.6+ */
+    background-image: none;
+    box-shadow: 0 0 0 1px #9F1600 inset;
+    -webkit-box-shadow: 0 0 0 1px #9F1600 inset;
+    filter: none;
+    border-color: #C77E19;
+    color: #FFFFFF;
+}
+
+.button .icon,
+.button-secondary {
+	color: #8f8f8f;
+}
+
+.button-secondary:focus,
+.button-secondary:hover,
+.button:focus .icon,
+.button:hover .icon {
+	color: #C77E19;
+}
+
+.button-search:hover,
+.button-search-end:hover {
+	border-color: #C77E19;
+}
+
+.caret	{ border-color: #DADADA; }
+.caret	{ border-color: #C7C3BF; }
+
+.contact-icons a		{ border-color: #DCDCDC; }
+.contact-icons a:hover	{ background-color: #F2F6F9; }
 
 /* Pagination
 ---------------------------------------- */
@@ -551,12 +602,17 @@ Colours and backgrounds for buttons.css
     box-shadow: none;
 }
 
-
 /* Search box
 --------------------------------------------- */
 
 .search-box .inputbox {
     border-color: #5d5d5d;
+}
+
+
+.search-box .inputbox:focus,
+.search-box .inputbox:hover {
+    border-color: #C77E19;
 }
 
 .search-header {
@@ -869,5 +925,9 @@ input.disabled {
 ---------------------------------------- */
 
 /* Notifications
+---------------------------------------- */
+
+
+/* pbWoW Forms
 ---------------------------------------- */
 

@@ -1,29 +1,69 @@
+/* Button Styles
+---------------------------------------- */
 
-/* Buttons
---------------------------------------------- */
 .button {
-    background-color: #222;
-    background-image: linear-gradient(to bottom, #373737 0%, #111111 100%);
-    border: 1px solid #5D5D5D;
-    border-radius: 3px;
-    color: #CCC;
+    border: 1px solid;
+    border-radius: 0px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     height: auto;
     line-height: 28px;
     padding: 0 12px;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    text-shadow: none;
     box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.6), inset 0 0 3px 0 rgba(0, 0, 0, 0.8);
+    box-shadow: none;
     transition: all 0.2s;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
+/* Posting page styles
+----------------------------------------*/
+
+/* Poster contact icons
+----------------------------------------*/
+
+/* Post control buttons
+--------------------------------------------- */
+
+/*  wip */
+
+/*
+.post-buttons .icon-button {
+    background: none !important;
+    border: none;
+    box-shadow: none !important;
+    line-height: inherit;
+    padding: 0 3px;
+    height: auto;
+    width: auto;
+}
+
+.post-buttons .icon-button:before {
+    font-family: FontAwesome;
+    text-shadow: 0 0 5px #000;
+    font-size: 1.3em;
+    line-height: inherit;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.post-buttons .icon-button:hover:before {
+    color: #FFF;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.post-buttons .dropdown li a:before {
+    content: "";
+    display: none;
+}
+*/
+
 /* Deprecated as of version 3.2
 -------------------------------------------------*/
-
-/* Icon images
---------------------------------------------- */
+/*
 .small-icon {
     background: none !important;
     padding: 0;
@@ -143,39 +183,6 @@
     color: inherit;
     padding-right: 5px;
 }
-
-/* Post control buttons */
-.post-buttons .icon-button {
-    background: none !important;
-    border: none;
-    box-shadow: none !important;
-    line-height: inherit;
-    padding: 0 3px;
-    height: auto;
-    width: auto;
-}
-
-.post-buttons .icon-button:before {
-    font-family: FontAwesome;
-    text-shadow: 0 0 5px #000;
-    font-size: 1.3em;
-    line-height: inherit;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.post-buttons .icon-button:hover:before {
-    color: #FFF;
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-}
-
-.post-buttons .dropdown li a:before {
-    content: "";
-    display: none;
-}
-
-
 
 /* Profile & navigation icons */
 .contact-icon { background-image: url("./images/icons/icons_contact.png"); }
