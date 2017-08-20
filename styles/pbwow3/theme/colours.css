@@ -303,6 +303,15 @@ li.row.bg3:hover
     color: #FFF;
 }
 
+li.row.bg1:hover dd {
+    border-left-color: #252525;
+}
+
+li.row.bg2:hover dd {
+    border-left-color: #161616;
+}
+
+
 /* the _pbwow class is needed because of !important usage in prosilver 3.2 */
 li.row.pbwow.reported,
 li.row.pbwow.reported:hover,
