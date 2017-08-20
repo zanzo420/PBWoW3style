@@ -925,6 +925,13 @@ input.disabled {
 /* Notifications
 ---------------------------------------- */
 
+.badge {
+    background-color: #D31141;
+    color: #fff;
+    -moz-box-shadow:    inset 0 0 4px #000000;
+    -webkit-box-shadow: inset 0 0 4px #000000;
+    box-shadow:         inset 0 0 4px #000000;
+}
 
 /* pbWoW Forms
 ---------------------------------------- */
