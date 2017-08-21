@@ -531,23 +531,30 @@ Colours and backgrounds for buttons.css
 -------------------------------------------------------------- */
 .button {
     background-color: #222; /* Old browsers */ /* FF3.6+ */
-    background-image: none;
-    box-shadow: 0 0 0 1px #373737 inset;
     -webkit-box-shadow: 0 0 0 1px #373737 inset;
     filter: none;
-    border-color: #5D5D5D;
-    color: #FFB019;
+    border-color: #161616;
+    color: #FFF;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+   box-shadow: inset 0px 1px 10x 0px #8c0f20;
+    -webkit-box-shadow: inset 0px 1px 10px 0px #8c0f20;
+    -moz-box-shadow: inset 0px 1px 10px 0px #8c0f20;
+    -o-box-shadow: inset 0px 1px 10px 0px #8c0f20;
+    text-shadow: -2px 2px 3px #44030e;
 }
 
 .button:hover,
 .button:focus {
-    background-color: #EB7C16; /* Old browsers */ /* FF3.6+ */
+    background-color: #ff0502; /* Old browsers */ /* FF3.6+ */
     background-image: none;
-    box-shadow: 0 0 0 1px #9F1600 inset;
-    -webkit-box-shadow: 0 0 0 1px #9F1600 inset;
+    box-shadow: inset 1px 1px 5px 5px #770B08;
+    -webkit-box-shadow: inset 10px 10px 10px 10px #770B08;
+    -moz-box-shadow: inset 0px 1px 7px 0px #770B08;
+    -o-box-shadow: inset 0px 1px 7px 0px #770B08;
     filter: none;
     border-color: #C77E19;
-    color: #FFFFFF;
+    color: #CCC;
+    text-shadow: -2px 2px 3px #44030e;
 }
 
 .button .icon,
@@ -869,25 +876,78 @@ Colours and backgrounds for forms.css
 
 /* General form styles
 ----------------------------------------*/
+select {
+    background-image: url("./images/icons/select.png");
+    background-color: #040d1a;
+    border-color: #7F7F7F;
+    color: #CCC;
+}
 
 /* Definition list layout for forms
 ---------------------------------------- */
+fieldset dt { color: #888; }
+
+fieldset dl:hover dt label { color: #00C0FF; }
+
+fieldset.fields2 dl:hover dt label { color: #00C0FF; }
+
+label { color: #FFF; }
+
+dd label { color: #CCC; }
 
 /* Posting page styles
 ----------------------------------------*/
+/* Main message box */
+
+#message-box textarea { color: #CCC; }
+
+#message-box textarea.drag-n-drop {
+    outline-color: rgba(102, 102, 102, 0.5);
+}
+
+#message-box textarea.drag-n-drop-highlight {
+    outline-color: rgba(62, 1, 59, 0.96);
+}
 
 /* Input field styles
 ---------------------------------------- */
 
+.inputbox {
+    background-color: #040D1A;
+    border-color: #7F7F7F;
+    color: #CCC;
+}
+.inputbox:hover { border-color: #ea0b05; }
+.inputbox:focus { border-color: #ea0605; color: #FFF; }
+
+.inputbox:-moz-placeholder { color: #CCC; opacity: 0.5; }
+.inputbox::-moz-placeholder { color: #CCC; opacity: 0.5; }
+.inputbox::-webkit-input-placeholder { color: #CCC; opacity: 0.5; }
+
+input.button1:active, input.button2:active, input.button3:active {
+    background-image: linear-gradient(to bottom, #111, #222);
+    box-shadow: inset 0 0 2px 1px #000, 0 2px 5px 1px rgba(0, 0, 0, 0.5);
+    border-color: #888;
+    color: #CCC;
+}
+
+input.button1:focus, input.button2:focus, input.button3:focus {
+    border-color: #00C0FF;
+    color: #FFF;
+}
+
+
 /* Form button styles
 ---------------------------------------- */
-
-a.button1, input.button1, input.button3, a.button2, input.button2 {
+a.button1, input.button1,
+a.button2, input.button2, input.button3 {
 	color: #DDDDDD;
     background-color: #1A1A1A; /* Old browsers */ /* FF3.6+ */
     background-image: -webkit-linear-gradient(top, #3A3A3A 0%, #1A1A1A 100%);
     background-image: linear-gradient(to bottom, #3A3A3A 0%,#1A1A1A 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3A3A3A', endColorstr='#1A1A1A',GradientType=0 ); /* IE6-9 */
+    box-shadow: inset 0 0 2px 1px #1a1a1a, 0 2px 5px 1px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.6);
 }
 
 a.button1, input.button1 {
@@ -900,6 +960,8 @@ input.button3 {
 
 /* Alternative button */
 a.button2, input.button2, input.button3 {
+    background-color: #1a1a1a;
+    background-image: linear-gradient(to top, #111, #333);
 	border-color: #666666;
 }
 
@@ -909,7 +971,10 @@ a.button1, a.button2 {
 }
 
 /* Hover states */
-a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
+a.button1:hover, input.button1:hover,
+a.button2:hover, input.button2:hover, input.button3:hover {
+    /*border-color: #00C0FF;*/
+    /*box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.3);*/
 	border-color: #D31141;
     color: #FFF;
     background-color: #1A1A1A; /* Old browsers */ /* FF3.6+ */
@@ -924,9 +989,30 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 	color: #0F4987;
 }
 
+.button1.disabled {
+    background-color: #1A1A1A;
+    background-image: linear-gradient(to bottom, #202020 0%, #111111 100%);
+    border-color: #3f3f3f;
+    box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.6), inset 0 0 3px 0 rgba(0, 0, 0, 0.8);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.8);
+    color: #777 !important;
+}
+
 input.disabled {
 	color: #666666;
 }
+
+option.disabled-option {
+    color: #888;
+}
+
+/* Search box (header)
+--------------------------------------------- */
+
+.search-header .inputbox:focus {
+    border: 1px solid #11A3EA;
+}
+
 
 /* jQuery popups
 ---------------------------------------- */

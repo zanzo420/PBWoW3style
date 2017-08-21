@@ -17,6 +17,7 @@
 @import url("colours.css");
 @import url("imageset.css");
 @import url("custom.css");
+@import url("extensions.css");
 
 /* PBWoW Master style specific assets (overall_header {T_THEME_NAME}
    (excluded for children)
