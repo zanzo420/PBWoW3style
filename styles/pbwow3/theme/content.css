@@ -49,6 +49,7 @@ ul.topiclist dd {
 
 ul.topiclist a.topictitle {
 	font-size: 13px;
+	text-decoration: none;
 }
 
 li.header dt, li.header dd {
@@ -621,7 +622,7 @@ blockquote .codebox {
 	display: block;
 	height: auto;
 	max-height: 200px;
-	white-space: normal;
+	white-space: normal !important;
 	padding-top: 5px;
 	font: 0.9em Monaco, "Andale Mono","Courier New", Courier, monospace;
 	line-height: 1.3em;
