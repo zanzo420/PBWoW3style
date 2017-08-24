@@ -322,6 +322,10 @@ ul.linklist .dropdown-up .dropdown {
     padding: 0px;
 }
 
+.dropdown li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 /* Responsive breadcrumbs
 ----------------------------------------*/
