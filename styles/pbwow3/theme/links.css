@@ -4,10 +4,6 @@
 /* Links, arrows & text
 --------------------------------------------- */
 
-a 			{ color: #FFB019; }
-a:hover 	{ color: #FFFFFF; }
-a:active	{ color: #00C0FF; }
-
 a.up, a.down, a.left, a.right, a.top, a.top2,
 a.arrow-up, a.arrow-down, a.arrow-left, a.arrow-right {
     text-indent: 0;
@@ -15,7 +11,6 @@ a.arrow-up, a.arrow-down, a.arrow-left, a.arrow-right {
 
 a.up:hover, a.down:hover, a.left:hover, a.right:hover, a.top:hover, a.top2:hover,
 a.arrow-up:hover, a.arrow-down:hover, a.arrow-left:hover, a.arrow-right:hover {
-    text-shadow: 0 0 2px #009CFF;
     text-decoration: none;
 }
 
@@ -46,29 +41,48 @@ a.top2 {
 }
 
 /* Arrow links  */
-a.arrow-up, a.arrow-down, a.arrow-left, a.arrow-right { padding: 0 3px !important; }
-a.arrow-up:before, a.arrow-down:after, a.arrow-left:before, a.arrow-right:after { font-size: 0.7em; vertical-align: middle; }
+a.arrow-up, a.arrow-down, a.arrow-left, a.arrow-right {
+    padding: 0 3px !important;
+}
 
-.forumbg .header a, .forabg .header a, th a { color: #FFFFFF; }
-.forumbg .header a:active, .forabg .header a:active, th a:active { color: #00C0FF; }
+.jumpbox-return a.arrow-up::before, .jumpbox-return a.arrow-down::after,
+.jumpbox-return a.arrow-left::before, .jumpbox-return a.arrow-right::after {
+    font-size: 0.7em;
+    vertical-align: middle;
+}
+
+.jumpbox-return a.arrow-up, .jumpbox-return a.arrow-down,
+.jumpbox-return a.arrow-left, .jumpbox-return a.arrow-right {
+    font-size: 0.9em;
+}
+
 
 /* Post body links */
 .postlink {
-    border-bottom: 1px dotted #FFB019;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
 }
 
 .postlink:hover {
     background: none;
-    border-bottom-color: #00C0FF;
     text-decoration: none;
-}
-
-.postlink:active {
-    border-bottom-color: #FFF;
 }
 
 /* Profile links */
 .postprofile a:hover, .postprofile dt.author a:hover, .search .postprofile a:hover {
     text-decoration: none;
+}
+
+/* Back to top of page */
+.back2top {
+    clear: both;
+    text-align: right;
+}
+
+.back2top .top {
+    float: right;
+    padding-right: 11px;
+    margin-right: -10px;
+    margin-top: 0;
 }
 

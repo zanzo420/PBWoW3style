@@ -1,27 +1,100 @@
+/* Button Styles
+---------------------------------------- */
 
-/* Buttons
---------------------------------------------- */
 .button {
-    background-color: #222;
-    background-image: linear-gradient(to bottom, #373737 0%, #111111 100%);
-    border: 1px solid #5D5D5D;
+    border: 1px;
     border-radius: 3px;
-    color: #CCC;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     height: auto;
     line-height: 28px;
     padding: 0 12px;
     text-transform: uppercase;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-    box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.6), inset 0 0 3px 0 rgba(0, 0, 0, 0.8);
     transition: all 0.2s;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    /*-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;*/
 }
 
-.dropdown-select {
-    padding-right: 5px;
+/* Posting page styles
+----------------------------------------*/
+
+/* Poster contact icons
+----------------------------------------*/
+
+/* Post control buttons
+--------------------------------------------- */
+
+/*  wip */
+
+/*
+.post-buttons .icon-button {
+    background: none !important;
+    border: none;
+    box-shadow: none !important;
+    line-height: inherit;
+    padding: 0 3px;
+    height: auto;
+    width: auto;
 }
+
+.post-buttons .icon-button:before {
+    font-family: FontAwesome;
+    text-shadow: 0 0 5px #000;
+    font-size: 1.3em;
+    line-height: inherit;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.post-buttons .icon-button:hover:before {
+    color: #FFF;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.post-buttons .dropdown li a:before {
+    content: "";
+    display: none;
+}
+*/
+
+/* Deprecated as of version 3.2
+-------------------------------------------------*/
+/*
+.small-icon {
+    background: none !important;
+    padding: 0;
+    position: relative;
+}
+
+.small-icon > a {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.small-icon > a:before,
+#top-bar .small-icon:before,
+.profile-context .user-icons a:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    color: #888;
+    text-shadow: 0 0 5px #000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: inherit;
+    text-decoration: none;
+    padding-right: 3px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.small-icon > a:hover:before {
+    color: #FFF;
+    text-shadow: 0 0 16px #009CFF;
+}
+
 
 .button:hover,
 .button:active,
@@ -78,102 +151,14 @@
     height: auto;
 }
 
-.dropdown-select:after {
-    border-color: #5D5D5D;
-    content: "\f0d7";
-    font-size: 12px;
-    height: 100%;
-    padding-left: 3px;
-    text-align: center;
-    transition: border 0.2s;
-}
-
-.dropdown-select:hover:after,
-.dropdown-visible .dropdown-select:after,
-.nojs .dropdown-container:hover .dropdown-select:after {
-    border-color: #238eff;
-}
 
 
-
-/* Icon images
---------------------------------------------- */
-.small-icon {
-    background: none !important;
-    padding: 0;
-    position: relative;
-}
-
-.small-icon > a {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-.small-icon > a:before,
-#top-bar .small-icon:before,
-.profile-context .user-icons a:before {
-    display: inline-block;
-    font-family: FontAwesome;
-    color: #888;
-    text-shadow: 0 0 5px #000;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: inherit;
-    text-decoration: none;
-    padding-right: 3px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.small-icon > a:hover:before {
-    color: #FFF;
-    text-shadow: 0 0 16px #009CFF;
-}
-
-.dropdown-contents .small-icon > a:before {
-    width: 1.28571em;
-    text-align: center;
-}
 
 #top-bar .small-icon:before,
 #top-bar .small-icon.link > a:before {
     color: inherit;
     padding-right: 5px;
 }
-
-/* Post control buttons */
-.post-buttons .icon-button {
-    background: none !important;
-    border: none;
-    box-shadow: none !important;
-    line-height: inherit;
-    padding: 0 3px;
-    height: auto;
-    width: auto;
-}
-
-.post-buttons .icon-button:before {
-    font-family: FontAwesome;
-    text-shadow: 0 0 5px #000;
-    font-size: 1.3em;
-    line-height: inherit;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.post-buttons .icon-button:hover:before {
-    color: #FFF;
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-}
-
-.post-buttons .dropdown li a:before {
-    content: "";
-    display: none;
-}
-
-
 
 /* Profile & navigation icons */
 .contact-icon { background-image: url("./images/icons/icons_contact.png"); }

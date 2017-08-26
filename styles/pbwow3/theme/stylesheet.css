@@ -7,15 +7,17 @@
 	--------------------------------------------------------------
 */
 
+@import url("base.css");
 @import url("common.css");
 @import url("links.css");
-@import url("colours.css");
 @import url("content.css");
-@import url("forms.css");
 @import url("buttons.css");
-@import url("imageset.css");
 @import url("cp.css");
-@import url("fontawesome.css");
+@import url("forms.css");
+@import url("colours.css");
+@import url("imageset.css");
+@import url("custom.css");
+@import url("extensions.css");
 
 /* PBWoW Master style specific assets (overall_header {T_THEME_NAME}
    (excluded for children)
@@ -25,7 +27,7 @@ body.pbwow3 {
 	background-attachment: scroll !important;
 }
 
-body.pbwow3 #logo {
+body.pbwow3 .site_logo {
 	background-image: none;
 	width: 266px;
 	height: 126px;
@@ -136,6 +138,14 @@ body.topbar-fixed #wrap {
 body.topbar .navblock {
 	margin-top: 1px;
 }
+
+#top-bar ul.linklist > li.rightside, p.rightside, a.rightside {
+	float: right;
+	margin-right: 0;
+	margin-left: 7px;
+	text-align: right;
+}
+
 
 
 /* used in Miscellaneous pbwow styles
