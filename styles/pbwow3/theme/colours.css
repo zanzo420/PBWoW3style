@@ -653,7 +653,7 @@ li.pbwow.reported:hover {
 }
 
 .content h2, .panel h2 {
-    color: #69707C;
+    color: #00C0FF;
     border-bottom-color: #666;
 }
 
@@ -1273,24 +1273,13 @@ a.button2, input.button2, input.button3 {
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.6);
 }
 
-a.button1, input.button1 {
+a.button1, input.button1,
+a.button2, input.button2 {
 	border-color: #666666;
 }
 
 input.button3 {
 	background-image: none;
-}
-
-/* Alternative button */
-a.button2, input.button2, input.button3 {
-    background-color: #1a1a1a;
-    background-image: linear-gradient(to top, #111, #333);
-	border-color: #666666;
-}
-
-/* <a> button in the style of the form buttons */
-a.button1, a.button2 {
-	color: #000000;
 }
 
 /* Hover states */

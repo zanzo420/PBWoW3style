@@ -54,7 +54,10 @@ a.button2, input.button2, input.button3 {
     padding: 2px 3px;
     border: 1px solid #666;
     border-radius: 2px;
+    width: auto !important;
+    font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
     min-width: 20px;
+    line-height: 1.5;
 }
 
 a.button1, a.button1:active,
