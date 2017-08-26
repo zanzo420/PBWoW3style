@@ -41,8 +41,21 @@ a.top2 {
 }
 
 /* Arrow links  */
-a.arrow-up, a.arrow-down, a.arrow-left, a.arrow-right { padding: 0 3px !important; }
-a.arrow-up:before, a.arrow-down:after, a.arrow-left:before, a.arrow-right:after { font-size: 0.7em; vertical-align: middle; }
+a.arrow-up, a.arrow-down, a.arrow-left, a.arrow-right {
+    padding: 0 3px !important;
+}
+
+.jumpbox-return a.arrow-up::before, .jumpbox-return a.arrow-down::after,
+.jumpbox-return a.arrow-left::before, .jumpbox-return a.arrow-right::after {
+    font-size: 0.7em;
+    vertical-align: middle;
+}
+
+.jumpbox-return a.arrow-up, .jumpbox-return a.arrow-down,
+.jumpbox-return a.arrow-left, .jumpbox-return a.arrow-right {
+    font-size: 0.9em;
+}
+
 
 /* Post body links */
 .postlink {
@@ -72,3 +85,4 @@ a.arrow-up:before, a.arrow-down:after, a.arrow-left:before, a.arrow-right:after 
     margin-right: -10px;
     margin-top: 0;
 }
+
