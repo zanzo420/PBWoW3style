@@ -60,3 +60,15 @@ a.arrow-up:before, a.arrow-down:after, a.arrow-left:before, a.arrow-right:after 
     text-decoration: none;
 }
 
+/* Back to top of page */
+.back2top {
+    clear: both;
+    text-align: right;
+}
+
+.back2top .top {
+    float: right;
+    padding-right: 11px;
+    margin-right: -10px;
+    margin-top: 0;
+}
