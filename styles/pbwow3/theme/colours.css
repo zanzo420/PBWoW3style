@@ -135,13 +135,6 @@ hr {
     color: #FFF;
 }
 
-.forum-blocks dd.forum-stats,
-.forum-blocks dd.redirect,
-.forum-blocks dd.mcp-status,
-#recent-topics dd.lastpost {
-    color: #4A4A4A;
-}
-
 /* Other blocks */
 .misc-block, .stat-block p {
     background: #141414;
@@ -853,33 +846,6 @@ dl.thumbnail dt a:hover img,
 --------------------------------------------------------------
 Colours and backgrounds for buttons.css
 -------------------------------------------------------------- */
-.button {
-    background-color: #222;
-    background-image: none;
-    filter: none;
-    border-color: 1px solid #161616;
-    color: #FFF;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-    box-shadow: inset 0px 1px 10x 0px #8c0f20;
-    -webkit-box-shadow: inset 0px 1px 10px 0px #8c0f20;
-    -moz-box-shadow: inset 0px 1px 10px 0px #8c0f20;
-    -o-box-shadow: inset 0px 1px 10px 0px #8c0f20;
-    text-shadow: -2px 2px 3px #44030e;
-}
-
-.button:hover,
-.button:focus {
-    background-color: #ff0502;
-    background-image: none;
-    filter: none;
-    border-color: 1px solid #C77E19;
-    color: #CCC;
-    text-shadow: -2px 2px 3px #44030e;
-    box-shadow: inset 1px 1px 5px 5px #770B08;
-    -webkit-box-shadow: inset 10px 10px 10px 10px #770B08;
-    -moz-box-shadow: inset 0px 1px 7px 0px #770B08;
-    -o-box-shadow: inset 0px 1px 7px 0px #770B08;
-}
 
 
 /* alternative grey design */
@@ -888,28 +854,86 @@ Colours and backgrounds for buttons.css
     background-image: none;
     background-image: linear-gradient(to bottom, #373737 0%, #111 100%);
     filter: none;
-    border-color: #1px solid #5D5D5D;
-    color: #FFF;
+    border: 1px solid #464646;
+    color: #CCC;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-    box-shadow: inset 0px 1px 1x 0px #747372;
-    -webkit-box-shadow: inset 0px 1px 2px 0px #747372;
-    -moz-box-shadow: inset 0px 1px 2px 0px #747372;
-    -o-box-shadow: inset 0px 1px 2px 0px #747372;
+    box-shadow: inset 0px 1px 1px 0px #747372;
+    -webkit-box-shadow: inset 0px 1px 1px 0px #747372;
+    -moz-box-shadow: inset 0px 1px 1px 0px #747372;
+    -o-box-shadow: inset 0px 1px 1px 0px #747372;
 }
 
 .button:hover,
 .button:focus {
-    background-color: rgba(31, 27, 23, 0.92);
+    background-color: #222;
     background-image: none;
+    background-image: linear-gradient(to bottom, #373737 0%, #111 100%);
     filter: none;
-    border-color: 1px solid #5D5D5D;
-    color: #CCC;
-    text-shadow: -2px 2px 3px #404040;
-    box-shadow: inset 1px 1px 1px 0px #747372;
-    -webkit-box-shadow: inset 1px 1px 1px 0px #747372;
-    -moz-box-shadow: inset 1px 1px 1px 0px #747372;
-    -o-box-shadow: inset 1px 1px 1px 0px #747372;
+    border: 1px solid #FFB019;
+    color: #FFB019;
+    text-shadow: 1px 1px 2px #404040;
+    box-shadow: inset 0px 1px 1px 0px #747372;
+    -webkit-box-shadow: inset 0px 1px 1px 0px #747372;
+    -moz-box-shadow: inset 0px 1px 1px 0px #747372;
+    -o-box-shadow: inset 0px 1px 1px 0px #747372;
 }
+
+
+.button {
+    background-color: #222;
+    background-image: linear-gradient(to bottom, #373737 0%, #111 100%);
+    filter: none;
+    border: 1px solid #161616;
+    color: #CCC;
+    text-shadow: -2px 2px 3px #44030e;
+    box-shadow: inset 1px 1px 1px 1px #777777;
+    -webkit-box-shadow: inset 1px 1px 1px 1px #777777;
+    -moz-box-shadow: inset 1px 1px 1px 1px #777777;
+    -o-box-shadow: inset 1px 1px 1px 1px #777777;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #ff0502;
+    background-image: linear-gradient(to bottom, #373737 0%, #111 100%);
+    filter: none;
+    border: 1px solid #FFB019;
+    color: #FFB019;
+    text-shadow: -2px 2px 3px #44030e;
+    box-shadow: inset 1px 1px 1px 1px #770B08;
+    -webkit-box-shadow: inset  1px 1px 1px 1px #770B08;
+    -moz-box-shadow: inset 1px 1px 1px 1px #770B08;
+    -o-box-shadow: inset       1px 1px 1px 1px #770B08;
+}
+/*
+.button {
+    background-color: #222;
+    background-image: linear-gradient(to bottom, #373737 0%, #111 100%);
+    filter: none;
+    border: 1px solid #161616;
+    color: #CCC;
+    text-shadow: -2px 2px 3px #44030e;
+    box-shadow: inset 1px 1px 1px 1px #777777;
+    -webkit-box-shadow: inset 1px 1px 1px 1px #777777;
+    -moz-box-shadow: inset 1px 1px 1px 1px #777777;
+    -o-box-shadow: inset 1px 1px 1px 1px #777777;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #ff0502;
+    background-image: linear-gradient(to bottom, #373737 0%, #111 100%);
+    filter: none;
+    border: 1px solid #FFB019;
+    color: #FFB019;
+    text-shadow: -2px 2px 3px #44030e;
+    box-shadow: inset 1px 1px 1px 1px #770B08;
+    -webkit-box-shadow: inset  1px 1px 1px 1px #770B08;
+    -moz-box-shadow: inset 1px 1px 1px 1px #770B08;
+    -o-box-shadow: inset       1px 1px 1px 1px #770B08;
+}
+*/
+
 
 .button .icon,
 .button-secondary {

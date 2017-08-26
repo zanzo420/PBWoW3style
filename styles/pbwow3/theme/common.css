@@ -781,6 +781,18 @@ p.post-notice.unapproved:before	{ content: "\f0e3"; }
     padding: 3px 4px;
 }
 
+.forum-blocks dd.forum-stats,
+.forum-blocks dd.redirect,
+.forum-blocks dd.mcp-status,
+#recent-topics dd.lastpost {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    line-height: normal;
+}
+
 .forum-blocks dd.mcp-status {
     bottom: auto;
     top: 0;
