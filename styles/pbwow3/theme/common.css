@@ -484,7 +484,7 @@ table.info tbody th {
     border: 1px solid transparent;
     border-radius: 2px;
     display: block;
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: normal;
     line-height: 1.4em;
     min-width: 10px;
@@ -509,7 +509,19 @@ table.info tbody th {
     vertical-align: middle;
 }
 
-/*
+.pagination li.active span {
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: normal;
+    font-family: Verdana,Helvetica,Arial,sans-serif;
+    line-height: 1.4em;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+}
+
+
 .pagination li.page-jump a:after {
     content: '\f124';
     font-size: 12px;
@@ -524,7 +536,7 @@ table.info tbody th {
     content: '\f053';
     padding-right: 1px;
 }
-*/
+
 
 /* Pagination in viewforum for multipage topics */
 .row .pagination {
