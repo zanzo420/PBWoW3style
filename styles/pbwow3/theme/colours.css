@@ -970,7 +970,6 @@ Colours and backgrounds for buttons.css
     color: #E1C492;
 }
 
-
 .pagination li a:hover,
 .pagination .active a:hover,
 .pagination .dropdown-visible a.dropdown-trigger,
@@ -995,6 +994,12 @@ Colours and backgrounds for buttons.css
     text-decoration: none;
     box-shadow: none;
 }
+
+.pagination li.ellipsis span {
+    background: transparent;
+    color: #FFB019;
+}
+
 
 /* Search box
 --------------------------------------------- */
