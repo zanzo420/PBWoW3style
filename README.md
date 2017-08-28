@@ -9,7 +9,7 @@ Updated by @Galixte, @Sajaki
 
 ## Changes
 
-3.2.0 (27-8-2017)
+3.2.0 (28-08-2017)
 - updated for phpbb 3.2
 
 ## License
