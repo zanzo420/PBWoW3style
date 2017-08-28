@@ -32,6 +32,49 @@ hr {
     border-color: #7C7C7C;
     border-top-color: #444;
 }
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for links.css
+-------------------------------------------------------------- */
+a 			{ color: #FFB019; }
+a:hover 	{ color: #FFFFFF; }
+a:active	{ color: #00C0FF; }
+
+
+h2 a { color: #F3E6D0; }
+
+h2 a:hover, h2 a:active {
+    color: #FFF; text-decoration: none;
+}
+
+h3 a:hover { text-decoration: none; }
+
+
+.forumbg .header a, .forabg .header a, th a { color: #FFFFFF; }
+.forumbg .header a:active, .forabg .header a:active, th a:active { color: #00C0FF; }
+
+/* Post body links */
+.postlink {
+
+    border-bottom-color: #FFB019;
+}
+
+.postlink:hover {
+    border-bottom-color: #00C0FF;
+}
+
+.postlink:active {
+    border-bottom-color: #FFF;
+}
+
+/* Arrow links  */
+.arrow-left:hover, .arrow-right:hover {
+    color: #FFF;
+}
+
+/* Round cornered boxes and backgrounds
+---------------------------------------- */
 /* Main blocks */
 
 .page-body {
@@ -64,11 +107,23 @@ hr {
     border: 1px solid #1a1a1a;
 }
 
-/* Round cornered boxes and backgrounds */
+.wrap {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.headerbar {
+    background: url("./images/forumliner-top.png") repeat-x 0 100%;
+}
+
 .forumbg {
     box-shadow: inset 0 0 0 1px #000, 0 0 0 1px #000, 0 2px 4px rgba(0, 0, 0, 0.6);
     border: 2px solid #1B1B1B;
     background: #313131;
+}
+
+.forumbg {
+    background: transparent none repeat-x 0 0;
 }
 
 .forumbg > .inner {
@@ -78,15 +133,12 @@ hr {
 
 }
 
-.panel {
-    background: #111;
-    background: rgba(20, 20, 20, 0.75);
-    border: 1px solid #444;
-    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.6);
+.forabg {
+    background: transparent none repeat-x 0 0;
 }
 
-.headerbar {
-    background: url("./images/forumliner-top.png") repeat-x 0 100%;
+.navbar {
+    background-color: #0A0A0A;
 }
 
 .navbar {
@@ -106,7 +158,135 @@ hr {
     background-image: url("./images/forumliner-fix-left2.gif");
 }
 
-/* Horizontal lists*/
+.panel {
+    background: #111;
+    background: rgba(20, 20, 20, 0.75);
+    border: 1px solid #444;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.6);
+    color: #E1C492;
+}
+
+.post:target h3 a {
+    color: #FFF;
+}
+
+.bg1	{
+    background: rgba(16, 16, 16, 0.75);
+}
+
+table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
+    background: rgba(16, 16, 16, 0.75);
+}
+
+.bg2	{
+    background: rgba(27, 27, 27, 0.75);
+}
+
+table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
+    background: rgba(27, 27, 27, 0.75);
+}
+
+.bg3	{
+    background-color: transparent;
+}
+
+
+.post:target .content {
+    color: #DDD;
+}
+
+.post .postbody h3,
+.post p.author {
+    margin-left: 10px !important; /* TODO check */
+}
+/* Horizontal lists
+----------------------------------------*/
+
+ul.navlinks {
+    border-top-color: transparent;
+}
+
+
+
+/* Table styles
+----------------------------------------*/
+
+table.table1 tbody th {
+    background: #101010;
+    border-bottom: 1px solid #000000;
+    color: #E1C492;
+}
+
+table.table1 thead tr {
+    background: #101010;
+    border: 1px solid #252525;
+}
+
+table.table1 tbody tr {
+    border-color: #161616;
+}
+
+table.table1 tbody tr.bg1,
+table.zebra-list tbody tr:nth-child(even) {
+    background: #252525;
+    background: #252525 linear-gradient(to bottom, rgba(30, 30, 30, 1) 0, rgba(37, 37, 37, 0) 35px);
+    border-color: #252525;
+}
+
+table.table1 tbody tr.bg2,
+table.zebra-list tbody tr:nth-child(odd) {
+    background: #161616;
+    background: #161616 linear-gradient(to bottom, rgba(11, 11, 11, 1) 0, rgba(22, 22, 22, 0) 35px);
+    border-color: #161616;
+}
+
+table.table1 tbody tr.bg3 {
+    background: #101010;
+    background: #101010 linear-gradient(to bottom, rgba(11, 11, 11, 1) 0, rgba(22, 22, 22, 0) 35px);
+    border-color: #101010;
+}
+
+table.table1 tbody tr.bg1:hover,
+table.table1 tbody tr.bg1.hover,
+table.zebra-list tbody tr:nth-child(even):hover {
+    background: #252525 linear-gradient(to top, rgba(30, 30, 30, 1) 0, rgba(37, 37, 37, 0) 35px);
+}
+
+table.table1 tbody tr.bg2:hover,
+table.table1 tbody tr.bg2.hover,
+table.zebra-list tbody tr:nth-child(odd):hover {
+    background: #161616 linear-gradient(to top, rgba(11, 11, 11, 1) 0, rgba(22, 22, 22, 0) 35px);
+}
+
+table.table1 tbody tr.bg3:hover,
+table.table1 tbody tr.bg3.hover {
+    background: #101010 linear-gradient(to top, rgba(11, 11, 11, 1) 0, rgba(22, 22, 22, 0) 35px);
+}
+
+table.table1 tbody tr:hover td,
+table.table1 tbody tr.hover td {
+    color: #FFF;
+}
+
+table.table1 td {
+    color: #bfbfbf;
+}
+
+/* Specific column styles */
+table.table1 tbody .big-column td {
+    color: #FFF;
+}
+
+table.info tbody th {
+    color: #FFF;
+}
+
+.panel-container table.table1 thead th {
+    color: #FFF;
+}
+
+/* Misc layout styles
+---------------------------------------- */
 
 /* Responsive breadcrumbs */
 
@@ -313,194 +493,10 @@ li.notification-reported strong, li.notification-disapproved strong {
     color: #FFF;
 }
 
-
 /* Hover states */
-
-
-/*
---------------------------------------------------------------
-Colours and backgrounds for links.css
--------------------------------------------------------------- */
-a 			{ color: #FFB019; }
-a:hover 	{ color: #FFFFFF; }
-a:active	{ color: #00C0FF; }
-
-
-h2 a { color: #F3E6D0; }
-
-h2 a:hover, h2 a:active {
-    color: #FFF; text-decoration: none;
-}
-
-h3 a:hover { text-decoration: none; }
-
-
-.forumbg .header a, .forabg .header a, th a { color: #FFFFFF; }
-.forumbg .header a:active, .forabg .header a:active, th a:active { color: #00C0FF; }
-
-/* Post body links */
-.postlink {
-
-    border-bottom-color: #FFB019;
-}
-
-.postlink:hover {
-    border-bottom-color: #00C0FF;
-}
-
-.postlink:active {
-    border-bottom-color: #FFF;
-}
-
-/* Arrow links  */
-.arrow-left:hover, .arrow-right:hover {
-    color: #FFF;
-}
-
-/* Round cornered boxes and backgrounds
----------------------------------------- */
-
-.wrap {
-    background-color: transparent;
-    border-color: #E6E9ED;
-}
-
-.forumbg {
-    background: transparent none repeat-x 0 0;
-}
-
-.forabg {
-    background: transparent none repeat-x 0 0;
-}
-
-.navbar {
-    background-color: #E1C492;
-}
-
-.panel {
-    color: #E1C492;
-}
-
-.bg1	{
-    background: rgba(49, 49, 49, 0.75);
-}
-
-.bg2	{
-    background: rgba(27, 27, 27, 0.75);
-}
-
-.postbody h3 {
-    font-size: 1.2em;
-}
-
-.postbody h3.first {
-    font-size: 1.3em;
-}
-
-.post:target h3 a {
-    color: #FFF;
-}
-
-.post:target .content {
-    color: #DDD;
-}
-
-.post .postbody h3,
-.post p.author {
-    margin-left: 10px !important; /* TODO check */
-}
-/* Horizontal lists
-----------------------------------------*/
-
-ul.navlinks {
-    border-top-color: transparent;
-}
-
-
-/* Table styles
-----------------------------------------*/
-
-table.table1 tbody th {
-    background: #101010;
-    border-bottom: 1px solid #000000;
-    color: #E1C492;
-}
-
-table.table1 thead tr {
-    background: #101010;
-    border: 1px solid #252525;
-}
-
-table.table1 tbody tr {
-    border-color: #161616;
-}
-
-table.table1 tbody tr.bg1,
-table.zebra-list tbody tr:nth-child(even) {
-    background: #252525;
-    background: #252525 linear-gradient(to bottom, rgba(30, 30, 30, 1) 0, rgba(37, 37, 37, 0) 35px);
-    border-color: #252525;
-}
-
-table.table1 tbody tr.bg2,
-table.zebra-list tbody tr:nth-child(odd) {
-    background: #161616;
-    background: #161616 linear-gradient(to bottom, rgba(11, 11, 11, 1) 0, rgba(22, 22, 22, 0) 35px);
-    border-color: #161616;
-}
-
-table.table1 tbody tr.bg3 {
-    background: #101010;
-    background: #101010 linear-gradient(to bottom, rgba(11, 11, 11, 1) 0, rgba(22, 22, 22, 0) 35px);
-    border-color: #101010;
-}
-
-table.table1 tbody tr.bg1:hover,
-table.table1 tbody tr.bg1.hover,
-table.zebra-list tbody tr:nth-child(even):hover {
-    background: #252525 linear-gradient(to top, rgba(30, 30, 30, 1) 0, rgba(37, 37, 37, 0) 35px);
-}
-
-table.table1 tbody tr.bg2:hover,
-table.table1 tbody tr.bg2.hover,
-table.zebra-list tbody tr:nth-child(odd):hover {
-    background: #161616 linear-gradient(to top, rgba(11, 11, 11, 1) 0, rgba(22, 22, 22, 0) 35px);
-}
-
-table.table1 tbody tr.bg3:hover,
-table.table1 tbody tr.bg3.hover {
-    background: #101010 linear-gradient(to top, rgba(11, 11, 11, 1) 0, rgba(22, 22, 22, 0) 35px);
-}
-
-table.table1 tbody tr:hover td,
-table.table1 tbody tr.hover td {
-    color: #FFF;
-}
-
-table.table1 td {
-    color: #bfbfbf;
-}
-
-/* Specific column styles */
-table.table1 tbody .big-column td {
-    color: #FFF;
-}
-
-table.info tbody th {
-    color: #FFF;
-}
-
-.panel-container table.table1 thead th {
-    color: #FFF;
-}
-
-/* Misc layout styles
----------------------------------------- */
 
 /* Icon styles
 ---------------------------------------- */
-
-
 .alert_close .icon:before {
     background-color: #111;
 }
@@ -648,6 +644,13 @@ li.pbwow.reported:hover {
 
 /* Post body styles
 ----------------------------------------*/
+.postbody h3 {
+    font-size: 1.2em;
+}
+
+.postbody h3.first {
+    font-size: 1.3em;
+}
 
 /* Content container styles
 ----------------------------------------*/
@@ -1074,8 +1077,6 @@ Colours and backgrounds for cp.css
     border-bottom-color: #0e0e0e;
 }
 
-
-
 /* Mini tabbed menu used in MCP
 ----------------------------------------*/
 
@@ -1375,7 +1376,3 @@ option.disabled-option {
     -webkit-box-shadow: inset 0 0 4px #000000;
     box-shadow:         inset 0 0 4px #000000;
 }
-
-/* pbWoW Forms
----------------------------------------- */
-
