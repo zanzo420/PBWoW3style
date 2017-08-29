@@ -17,3 +17,6 @@ Updated by @Galixte, @Sajaki
 [GNU General Public License v2](http://opensource.org/licenses/gpl-2.0.php)
 This application is opensource software released under the GPL.
 We request that you retain the copyright notice below.
+
+
+without copyrighted assets. (we keep those in a private repository). 
