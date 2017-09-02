@@ -1,0 +1,15 @@
+/* --------------------------------------------------------------
+	$Icons
+-------------------------------------------------------------- */
+
+/* Global module setup
+--------------------------------*/
+
+blockquote cite:before, .uncited:before {
+	content: none;
+}
+
+.rtl blockquote cite:before, .rtl .uncited:before {
+	content: none;
+}
+
