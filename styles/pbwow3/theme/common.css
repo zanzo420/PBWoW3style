@@ -541,8 +541,7 @@ table.info tbody th {
 /* Pagination in viewforum for multipage topics */
 .row .pagination {
     display: block;
-    margin-top: 1px;
-    background: url("./images/icons/icon_pages.png") 0 50% no-repeat;
+    margin-top: -18px;
     background: none;
     font-size: 10px;
 }

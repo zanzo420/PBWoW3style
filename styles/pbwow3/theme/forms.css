@@ -13,7 +13,9 @@ select {
 ---------------------------------------- */
 fieldset.display-options.right-box { text-align: right; }
 
-fieldset.submit-buttons input { padding: 4px 6px; }
+fieldset.submit-buttons input {
+    padding: 4px 6px;
+}
 
 /* Sort & Display options */
 .dropdown fieldset.display-options {

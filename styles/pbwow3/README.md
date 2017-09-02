@@ -1,4 +1,4 @@
-## PBWoW 3 Style for phpBB 3.2.0
+## PBWoW 3 Style for phpBB 3.2.1
 
 Author @Paybas
 
@@ -9,8 +9,8 @@ Updated by @Galixte, @Sajaki
 
 ## Changes
 
-3.2.0 (28-08-2017)
-- updated for phpbb 3.2
+3.2.1 (28-08-2017)
+- updated for phpbb 3.2.1
 
 ## Use
 - Copy pbwow3 folder to styles
