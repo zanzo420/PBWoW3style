@@ -203,6 +203,11 @@
 		min-height: 150px;
 	}
 
+	.navbar:before,
+	.navbar:after {
+		display: none;
+	}
+
 	/* Search
 	----------------------------------------*/
 	.responsive-search {
@@ -485,10 +490,6 @@
 		margin-top: 5px;
 	}
 
-	#body-header:before,
-	#body-header:after {
-		display: none;
-	}
 
 	#body-header ul.navlinks {
 		padding: 0 10px;
