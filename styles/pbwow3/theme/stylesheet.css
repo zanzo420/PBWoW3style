@@ -7,6 +7,7 @@
 	--------------------------------------------------------------
 */
 
+
 @import url("base.css?v=3.2");
 @import url("common.css?v=3.2");
 @import url("links.css?v=3.2");
@@ -19,6 +20,7 @@
 @import url("imageset.css?v=3.2");
 @import url("custom.css?v=3.2");
 @import url("extensions.css?v=3.2");
+@import url("responsive.css?v=3.2");
 
 /* PBWoW Master style specific assets (overall_header {T_THEME_NAME}
    (excluded for children)
