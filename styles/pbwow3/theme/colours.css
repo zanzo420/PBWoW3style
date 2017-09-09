@@ -207,6 +207,16 @@ ul.navlinks {
 }
 
 
+/* top-bar hamburger menu */
+ul.linklist li.responsive-menu a.responsive-menu-link {
+    color : gray;
+}
+
+/* top-bar hamburger menu */
+ul.linklist li.responsive-menu a.responsive-menu-link:hover {
+    color : #FFF;
+}
+
 
 /* Table styles
 ----------------------------------------*/

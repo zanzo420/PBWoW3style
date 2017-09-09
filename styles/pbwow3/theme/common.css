@@ -257,23 +257,12 @@ ul.linklist li.responsive-menu {
 	margin: 0 5px 0 0;
 }
 
+/* top-bar hamburger menu */
 ul.linklist li.responsive-menu a.responsive-menu-link {
     font-size: 0;
     height: 22px;
     text-align: center;
-}
-
-ul.linklist li.responsive-menu a.responsive-menu-link:before {
     border: none;
-    content: '\f0c9';
-    font-family: FontAwesome;
-    font-size: 14px !important;
-    line-height: inherit !important;
-    position: relative;
-    height: auto;
-    width: auto;
-    left: auto;
-    top: auto;
 }
 
 .hasjs ul.linklist.leftside, .hasjs ul.linklist.rightside {
