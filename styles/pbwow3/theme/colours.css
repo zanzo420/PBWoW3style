@@ -1147,11 +1147,18 @@ Colours and backgrounds for cp.css
     background: #212121;
     background-image: none;
     display: block;
-    color: #FFF;
+    color: #FFB019;
 }
 
 .navigation .active-subsection a:hover {
-    color: #00C0FF;
+    color: #FFF;
+}
+
+@media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
+{
+    #navigation a, .navigation a, .rtl #navigation a {
+        background: rgba(40, 40, 40, 0.7) linear-gradient(to left, rgba(0, 0, 0, 0.6) 0, rgba(0, 0, 0, 0) 100px);
+    }
 }
 
 /* Preferences pane layout

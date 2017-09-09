@@ -9,9 +9,6 @@ Updated by @Galixte, @Sajaki
 
 ## Changes
 
-3.2.1.1 (09-09-2017)
-- Fix for Responsive view
-
 3.2.1 (28-08-2017)
 - updated for phpbb 3.2.1
 
