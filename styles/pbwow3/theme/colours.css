@@ -731,6 +731,18 @@ blockquote:after {
     bottom: 2px;
 }
 
+blockquote blockquote {
+    /* Nested quotes */
+    background-color: rgba(10, 10, 10, 0.2);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0) 30%);
+}
+
+blockquote blockquote blockquote {
+    /* Nested quotes */
+    background-color: rgba(10, 10, 10, 0.2);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0) 30%);
+}
+
 .signature, .notice {
     border-top-color: #555;
     padding: 5px;
