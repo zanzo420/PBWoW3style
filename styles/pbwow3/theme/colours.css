@@ -516,13 +516,12 @@ li.notification-reported strong, li.notification-disapproved strong {
     border-top-color: #666;
 }
 
-
 .jumpbox-forum-link {
     background-color: #000;
 }
 
 .jumpbox-forum-link:hover {
-    background-color: #FFF;
+    background-color: #000;
 }
 
 .jumpbox .dropdown .pointer-inner {
