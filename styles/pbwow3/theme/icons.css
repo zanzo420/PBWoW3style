@@ -6,7 +6,8 @@
 --------------------------------*/
 
 .icon:before {
-	margin-right: 5px;
+	margin-right: 2px;
+	margin-left: 2px;
 }
 
 blockquote cite:before, .uncited:before {

@@ -892,6 +892,9 @@ p.post-notice.unapproved:before	{ content: "\f0e3"; }
     padding: 6px 6px 6px 6px;
 }
 
+.forums .dropdown-contents a span {
+    padding-left: 3px;
+}
 
 /* Profile Context Menu
 --------------------------------------------- */

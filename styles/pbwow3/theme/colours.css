@@ -1397,6 +1397,9 @@ option.disabled-option {
 
 /* Notifications
 ---------------------------------------- */
+.notification_list p.notification-time {
+    color: #FFB019;
+}
 
 .badge {
     background-color: #D31141;
