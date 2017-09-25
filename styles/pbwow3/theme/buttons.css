@@ -19,16 +19,7 @@
 /* Posting page styles
 ----------------------------------------*/
 
-/* Poster contact icons
-----------------------------------------*/
-
-/* Post control buttons
---------------------------------------------- */
-
-/*  wip */
-
-/*
-.post-buttons .icon-button {
+.button-icon-only {
     background: none !important;
     border: none;
     box-shadow: none !important;
@@ -38,7 +29,16 @@
     width: auto;
 }
 
-.post-buttons .icon-button:before {
+.button-icon-only:hover:before {
+    color: #FFF;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.button-icon-only:before {
+    background: none;
+    content: none;
+    height: auto;
+    width: auto;
     font-family: FontAwesome;
     text-shadow: 0 0 5px #000;
     font-size: 1.3em;
@@ -46,79 +46,10 @@
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin-left: 0;
 }
-
-.post-buttons .icon-button:hover:before {
-    color: #FFF;
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-}
-
-.post-buttons .dropdown li a:before {
-    content: "";
-    display: none;
-}
-*/
-
-/* Deprecated as of version 3.2
--------------------------------------------------*/
-/*
-.small-icon {
-    background: none !important;
-    padding: 0;
-    position: relative;
-}
-
-.small-icon > a {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
-.small-icon > a:before,
-#top-bar .small-icon:before,
-.profile-context .user-icons a:before {
-    display: inline-block;
-    font-family: FontAwesome;
-    color: #888;
-    text-shadow: 0 0 5px #000;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: inherit;
-    text-decoration: none;
-    padding-right: 3px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.small-icon > a:hover:before {
-    color: #FFF;
-    text-shadow: 0 0 16px #009CFF;
-}
-
-
-.button:hover,
-.button:active,
-.dropdown-visible .dropdown-select,
-.dropdown-visible .dropdown-select:hover,
-.nojs .dropdown-container:hover .dropdown-select {
-    background-color: #37dfff;
-    background-image: linear-gradient(to bottom, #37dfff 0%, #1041e2 100%);
-    border-color: #238eff;
-    color: #FFF;
-    text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
-    box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.5), inset 0 1px 3px 0 rgba(255, 255, 255, 0.8);
-}
-
-.icon-button:before {
-    background: none;
-    content: none;
-    height: auto;
-    width: auto;
-}
-
-.icon-button:after,
-.dropdown-select:before,
-.dropdown-select:after {
+.button-icon-only:after
+{
     background: none;
     display: inline-block;
     position: relative;
@@ -140,25 +71,27 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-button.dropdown-select {
-    font-size: 0;
-    padding: 0 5px 0 8px;
+.fa-times:before {
+    color: red;
 }
 
-.icon-button.dropdown-select:before {
-    margin: 0 3px 0 1px;
-    width: auto;
-    height: auto;
+.fa-exclamation-circle::before {
+    color: #F40;
 }
 
-
-
-
-#top-bar .small-icon:before,
-#top-bar .small-icon.link > a:before {
-    color: inherit;
-    padding-right: 5px;
+.fa-warning:before, .fa-exclamation-triangle:before {
+    color: #FFB019;
 }
+
+.fa-info-circle:before {
+    color: #00B6FF;
+}
+
+/* Poster contact icons
+----------------------------------------*/
+
+/* Post control buttons
+--------------------------------------------- */
 
 /* Profile & navigation icons */
 .contact-icon { background-image: url("./images/icons/icons_contact.png"); }

@@ -491,7 +491,6 @@ li.notification-reported strong, li.notification-disapproved strong {
     border-color: #333;
 }
 
-
 /* Profile Context Menu */
 
 .profile-context .dropdown-contents {
@@ -547,7 +546,6 @@ li.notification-reported strong, li.notification-disapproved strong {
 .jumpbox-sub-link:hover {
     background-color: #000;
 }
-
 
 /* Miscellaneous styles
 ---------------------------------------- */
