@@ -18,10 +18,10 @@
 
 /* Posting page styles
 ----------------------------------------*/
-
-.button-icon-only {
+.button-icon-only,
+.button-icon-only:hover{
     background: none !important;
-    border: none;
+    border: none !important;
     box-shadow: none !important;
     line-height: inherit;
     padding: 0 3px;
