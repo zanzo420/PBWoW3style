@@ -5,6 +5,11 @@
 /* Global module setup
 --------------------------------*/
 
+.icon:before {
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
 blockquote cite:before, .uncited:before {
 	content: none;
 }

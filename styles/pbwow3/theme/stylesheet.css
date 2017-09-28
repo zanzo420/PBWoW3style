@@ -19,8 +19,8 @@
 @import url("colours.css?v=3.2");
 @import url("imageset.css?v=3.2");
 @import url("custom.css?v=3.2");
-@import url("extensions.css?v=3.2");
 @import url("responsive.css?v=3.2");
+@import url("extensions.css?v=3.2");
 
 /* PBWoW Master style specific assets (overall_header {T_THEME_NAME}
    (excluded for children)
@@ -30,11 +30,13 @@ body.pbwow3 {
 	background-attachment: scroll !important;
 }
 
-body.pbwow3 .site_logo {
-	background-image: none;
-	width: 266px;
-	height: 126px;
-	margin: 15px 10px 10px -10px;
+body.pbwow3 .logo {
+	background: url("./images/theme/logo.png") no-repeat;
+	background-size: 101%;
+	width: 300px;
+	height: 180px;
+	margin: 10px 10px 40px 10px;
+	display: block;
 }
 
 body.pbwow3 #video-background {
@@ -47,7 +49,7 @@ body.pbwow3 #page-body:before {
 
 @media only screen and (max-width: 999px), only screen and (max-device-width: 999px) {
 	body.pbwow3 {
-		background-image: url("./images/theme/wod-small.jpg");
+		background-image: url("./images/theme/wod-small.png");
 		background-position: 0 0;
 	}
 
@@ -63,6 +65,13 @@ body.pbwow3 #page-body:before {
 		margin: 0 0 25px 0;
 	}
 }
+
+@media screen and (max-width: 640px) {
+	body.pbwow3 #logo {
+		display: none;
+	}
+}
+
 
 /* Top-bar (only available if pbwow extension is on)
 --------------------------------------------- */

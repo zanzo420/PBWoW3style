@@ -1,9 +1,9 @@
 /styles/*
 !/styles/pbwow3*/
+*.psd
 *.jpg
 *.jpeg
 *.mp4
 *.webm
 *.ogg
-
-styles/pbwow3/\.DS_Store
+*.DS_Store

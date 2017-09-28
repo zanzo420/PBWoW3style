@@ -71,16 +71,12 @@ i, em {
 	margin-top: 20px;
 }
 
-.logo {
-    display: block;
-    width: 280px;
-    height: 140px;
-    padding: 0;
-    line-height: 0;
-    margin: 10px 10px 40px 10px;
-    background-size: 100% 100%;
-    background: none no-repeat;
+
+
+.site_logo {
+    display: none;
 }
+
 
 .site-description {
     overflow: hidden;
@@ -889,9 +885,12 @@ p.post-notice.unapproved:before	{ content: "\f0e3"; }
 .forums .dropdown-contents a {
     font-size: 1.1em;
     display: block;
-    padding: 6px 6px 6px 15px;
+    padding: 6px 6px 6px 6px;
 }
 
+.forums .dropdown-contents a span {
+    padding-left: 3px;
+}
 
 /* Profile Context Menu
 --------------------------------------------- */

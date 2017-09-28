@@ -35,14 +35,6 @@ span.imageset {
     text-align: center;
 }
 
-.forums .dropdown-contents a.subforum.read {
-    background: url("./images/icons/icon_post_read.gif") 0 50% no-repeat;
-}
-
-.forums .dropdown-contents a.subforum.unread {
-    background: url("./images/icons/icon_post_unread.gif") 0 50% no-repeat;
-}
-
 .imageset.icon_topic_poll 			{ background: url("./images/icons/poll.gif") 100% 100% no-repeat; padding: 14px 0 0 20px; vertical-align: middle; }
 .imageset.icon_topic_attach 		{ background-image: url("./images/icons/icon_topic_attach.gif"); padding: 10px 0 0 7px; }
 .imageset.icon_post_target 			{ background-image: url("./images/icons/icon_post_read.gif"); padding: 9px 0 0 11px; }

@@ -491,7 +491,6 @@ li.notification-reported strong, li.notification-disapproved strong {
     border-color: #333;
 }
 
-
 /* Profile Context Menu */
 
 .profile-context .dropdown-contents {
@@ -516,13 +515,12 @@ li.notification-reported strong, li.notification-disapproved strong {
     border-top-color: #666;
 }
 
-
 .jumpbox-forum-link {
     background-color: #000;
 }
 
 .jumpbox-forum-link:hover {
-    background-color: #FFF;
+    background-color: #000;
 }
 
 .jumpbox .dropdown .pointer-inner {
@@ -548,7 +546,6 @@ li.notification-reported strong, li.notification-disapproved strong {
 .jumpbox-sub-link:hover {
     background-color: #000;
 }
-
 
 /* Miscellaneous styles
 ---------------------------------------- */
@@ -729,6 +726,18 @@ blockquote:after {
     content: "\f10e";
     right: 3px;
     bottom: 2px;
+}
+
+blockquote blockquote {
+    /* Nested quotes */
+    background-color: rgba(10, 10, 10, 0.2);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0) 30%);
+}
+
+blockquote blockquote blockquote {
+    /* Nested quotes */
+    background-color: rgba(10, 10, 10, 0.2);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0) 30%);
 }
 
 .signature, .notice {
@@ -1385,6 +1394,9 @@ option.disabled-option {
 
 /* Notifications
 ---------------------------------------- */
+.notification_list p.notification-time {
+    color: #FFB019;
+}
 
 .badge {
     background-color: #D31141;
