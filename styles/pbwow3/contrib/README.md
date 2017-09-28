@@ -9,7 +9,7 @@ Updated by @Galixte
 
 ## Changes
 
-3.2.1.2 (24-09-2017)
+3.2.1.2 (28-09-2017)
 - many more fixes
 
 3.2.1.1 (09-09-2017)
