@@ -9,6 +9,9 @@ Updated by @Galixte
 
 ## Changes
 
+3.2.1.3 (08-10-2017)
+- fixed avatar in responsive view
+
 3.2.1.2 (28-09-2017)
 - many more fixes
 
