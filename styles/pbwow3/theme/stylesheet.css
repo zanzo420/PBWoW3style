@@ -271,7 +271,6 @@ input#pf_pbbnetavatar, label[for=pf_pbbnetavatar] {
 	}
 
 	.postprofile {
-		background: none !important;
-		text-align: left;
+		background-position: 50% 0;
 	}
 }

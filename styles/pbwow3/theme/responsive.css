@@ -526,6 +526,12 @@
 		text-align: left;
 	}
 
+	.postprofile
+	{
+		background: none !important;
+		text-align: left;
+	}
+
 	.postprofile, .postbody, .search .postbody {
 		display: block;
 		width: auto;
