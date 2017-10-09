@@ -9,6 +9,9 @@ Updated by @Galixte
 
 ## Changes
 
+3.2.1.4 (08-10-2017)
+- moved some css to pbwow extension
+
 3.2.1.3 (08-10-2017)
 - fixed avatar in responsive view
 
