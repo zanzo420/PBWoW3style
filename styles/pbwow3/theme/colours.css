@@ -985,8 +985,10 @@ Colours and backgrounds for buttons.css
 
 ul.cplist {
     background: linear-gradient(to top, rgba(13, 13, 13, 1) 0, rgba(27, 27, 27, 0) 46px);
-    border: #575757;
+    border: 1px solid #575757;
     box-shadow: 0 0 0 1px #000;
+    padding: 3px;
+    margin-bottom: 8px;
 }
 
 /* Icon images
@@ -1177,6 +1179,13 @@ Colours and backgrounds for cp.css
     background: rgba(40, 40, 40, 0.7) linear-gradient(to top, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0) 46px);
 }
 
+.cp-main .pm {
+    background: #212121;
+    background: rgba(40, 40, 40, 0.7) linear-gradient(to top, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0) 46px);
+    border: 1px solid #444;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.6);
+    margin-right: 0;
+}
 
 /* Friends list */
 .cp-mini {
@@ -1352,7 +1361,8 @@ option.disabled-option {
 --------------------------------------------- */
 
 .search-header .inputbox:focus {
-    border: 1px solid #11A3EA;
+    background: #0D1A2D url("./images/forum-menu-search-tile.gif") repeat-x scroll 0 0;
+    border: 1px solid #7F7F7F;
 }
 
 
