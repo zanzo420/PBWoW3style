@@ -60,6 +60,7 @@ a.button2, input.button2, input.button3 {
     font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
     min-width: 20px;
     line-height: 1.5;
+    margin-top: 4px;
 }
 
 a.button1, a.button1:active,
