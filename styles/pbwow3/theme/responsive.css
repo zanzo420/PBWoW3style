@@ -484,6 +484,7 @@
 
 	fieldset.polls dd.poll_option_percent {
 		width: 20%;
+		white-space: nowrap;
 	}
 
 	fieldset.polls dd.resultbar, fieldset.polls dd.poll_option_percent {

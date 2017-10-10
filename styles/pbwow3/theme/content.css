@@ -879,6 +879,7 @@ fieldset.polls dd {
 
 fieldset.polls dd.resultbar {
 	width: 50%;
+	display: block;
 }
 
 fieldset.polls dd input {

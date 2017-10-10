@@ -104,20 +104,14 @@
 					<dt>&nbsp;</dt>
 					<dd class="resultbar">{L_TOTAL_VOTES}{L_COLON} <span class="poll_total_vote_cnt">{TOTAL_VOTES}</span></dd>
 				</dl>
-
-			<!-- IF S_CAN_VOTE -->
-				<dl style="border-top: none;" class="poll_vote">
-					<dt>&nbsp;</dt>
-					<dd class="resultbar"><input type="submit" name="update" value="{L_SUBMIT_VOTE}" class="button1" /></dd>
-				</dl>
-			<!-- ENDIF -->
-
-			<!-- IF S_DISPLAY_RESULTS -->
-				<dl style="border-top: none;" class="poll_view_results">
-					<dt>&nbsp;</dt>
-					<dd class="resultbar"><a href="{U_VIEW_RESULTS}">{L_VIEW_RESULTS}</a></dd>
-				</dl>
-			<!-- ENDIF -->
+				<div<!-- IF S_CAN_VOTE --> class="poll-footer"<!-- ENDIF -->>
+				<!-- IF not S_DISPLAY_RESULTS -->
+				<a href="{U_VIEW_RESULTS}" class="button1">{L_VIEW_RESULTS}</a>
+				<!-- ENDIF -->
+				<!-- IF S_CAN_VOTE -->
+				<input type="submit" name="update" value="{L_SUBMIT_VOTE}" class="button1" />
+				<!-- ENDIF -->
+				</div>
 			</fieldset>
 			<div class="vote-submitted hidden">{L_VOTE_SUBMITTED}</div>
 		</div>
