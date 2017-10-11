@@ -823,12 +823,7 @@ fieldset.polls {
 
 fieldset.polls dl {
 	margin-top: 5px;
-	border-top: 1px solid transparent;
 	padding: 5px 0 0 0;
-	line-height: 120%;
-}
-
-fieldset.polls dl {
     border: none;
     color: #CCC;
     line-height: 16px;
@@ -836,9 +831,6 @@ fieldset.polls dl {
 
 fieldset.polls dl.voted {
 	font-weight: bold;
-}
-
-fieldset.polls dl.voted {
     color: #FFF;
 }
 
@@ -848,7 +840,7 @@ fieldset.polls dt, fieldset.polls dd {
 }
 
 fieldset.polls dt {
-	text-align: left;
+    text-align: right;
 	float: left;
 	display: block;
 	width: 30%;
@@ -858,12 +850,6 @@ fieldset.polls dt {
 	font-size: 1.1em;
 }
 
-
-
-fieldset.polls dt {
-    text-align: right;
-}
-
 fieldset.polls dd {
 	float: left;
 	width: 10%;
@@ -871,9 +857,6 @@ fieldset.polls dd {
 	padding: 0 5px;
 	margin-left: 0;
 	font-size: 1.1em;
-}
-
-fieldset.polls dd {
     text-shadow: 0 0 2px #000;
 }
 
@@ -956,15 +939,10 @@ fieldset.polls dl.most-votes dd.resultbar div:before {
 	border-right: 1px solid transparent;
 }
 
-
 .vote-submitted {
 	font-size: 1.2em;
 	font-weight: bold;
 	text-align: center;
-}
-
-
-.vote-submitted {
     position: absolute;
     bottom: 10px;
     left: 50%;
@@ -976,16 +954,7 @@ fieldset.polls dl.most-votes dd.resultbar div:before {
 ----------------------------------------*/
 
 .postprofile {
-	margin: 5px 0 10px 0;
-	min-height: 80px;
-	border: 1px solid transparent;
-	border-width: 0 0 0 1px;
-	width: 22%;
-	float: right;
 	display: inline;
-}
-
-.postprofile {
     background: none no-repeat 0 0;
     position: relative;
     margin: 0;
@@ -1005,6 +974,11 @@ fieldset.polls dl.most-votes dd.resultbar div:before {
 	margin-left: 8px;
 }
 
+.postprofile dt {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
 .postprofile dt, .postprofile dd {
     margin-left: 0;
 }
@@ -1012,9 +986,6 @@ fieldset.polls dl.most-votes dd.resultbar div:before {
 .postprofile dd {
 	overflow: hidden;
 	text-overflow: ellipsis;
-}
-
-.postprofile dd {
     margin: 8px 0;
     font-size: 0.9em;
 }
@@ -1025,14 +996,7 @@ fieldset.polls dl.most-votes dd.resultbar div:before {
 
 .postprofile strong {
 	font-weight: normal;
-}
-.postprofile strong {
     color: #DDD;
-}
-
-.postprofile dt {
-    font-size: 1.2em;
-    margin-bottom: 10px;
 }
 
 .postprofile dt.no-profile-rank, .postprofile dd.profile-rank, .postprofile .search-result-date {
@@ -1055,12 +1019,10 @@ fieldset.polls dl.most-votes dd.resultbar div:before {
 }
 
 .postprofile .avatar {
-	display: block;
-	float: left;
-	max-width: 100%;
 }
 
 .postprofile .avatar {
+	max-width: 100%;
     background: #000 url("./images/portrait-frame-clean.gif") no-repeat 50% 50%;
     display: inline-block;
     float: none;
@@ -1076,18 +1038,13 @@ fieldset.polls dl.most-votes dd.resultbar div:before {
 	display: block;
 	height: auto !important;
 	max-width: 100%;
-}
-
-.postprofile .avatar img {
     width: 64px;
-    height: 64px;
     padding: 0px;
 }
 
 .postprofile .profile-posts a {
 	font-weight: normal;
 }
-
 
 .online .postprofile dt strong:before,
 .online .postprofile dt strong:after,
