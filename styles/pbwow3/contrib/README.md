@@ -4,10 +4,20 @@ Author @Paybas, @Sajaki
 
 Updated by @Galixte 
 
+## requirements
+- phpBB 3.2.x
+- pbwowExt (optional)
+
 ## Support
 - http://www.avathar.be/bbdkp/viewforum.php?f=82
 
 ## Changes
+
+3.2.1.4 (11-10-2017)
+- moved some css to pbwow extension
+- fixed poll view
+- fixed pm view
+- converted to twig syntax
 
 3.2.1.3 (08-10-2017)
 - fixed avatar in responsive view
@@ -20,6 +30,31 @@ Updated by @Galixte
 
 3.2.1 (28-08-2017)
 - updated for phpbb 3.2.1
+
+3.2.0 (29-08-2017)
+- updated for phpbb 3.2.0
+ 
+3.1.10 (15-12-2016)
+- updated for phpbb 3.1.10
+
+3.0.8.3
+- remove redundant recent items css
+
+3.0.8.2 (19-6-2016)
+- updated for phpbb 3.1.9
+- updated for recent topics 2.1
+- fix avatar offset
+
+3.0.7 (28-2-2016)
+- updated for phpbb 3.1.8
+
+3.0.6 (28-2-2016)
+- updated for phpbb 3.1.7
+
+3.0.5 (28-2-2016)
+- updated for phpbb 3.1.6
+- added theme images for pbWoW (only the Core Theme)
+- fixed placement of avatar
 
 ## Use
 - Copy pbwow3 folder to styles

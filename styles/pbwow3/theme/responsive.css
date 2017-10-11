@@ -153,8 +153,25 @@
 		padding: 0;
 	}
 
+	/* Index */
+	.index-left {
+		margin-right: 0;
+		float: none;
+		overflow: inherit;
+	}
+
+	.index-right {
+		width: auto;
+		float: none;
+	}
+
+	.misc-block.advertisement {
+		display: none;
+	}
+
 	/* Common block wrappers
 	----------------------------------------*/
+
 	.headerbar, .navbar, .forabg, .forumbg, .post, .panel {
 		border-radius: 0;
 		margin-left: 0;
@@ -474,20 +491,33 @@
 
 	/* Polls
 	----------------------------------------*/
+
+	.topic_poll .content {
+		padding: 0 10px;
+	}
+
+	.topic_poll .polls {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
 	fieldset.polls dt {
-		width: 90%;
+		margin-top: 5px;
+		width: 25%;
+	}
+
+	fieldset.polls dd {
+		margin-top: 5px;
 	}
 
 	fieldset.polls dd.resultbar {
 		padding-left: 20px;
+		width: 40%;
 	}
 
 	fieldset.polls dd.poll_option_percent {
-		width: 20%;
-	}
-
-	fieldset.polls dd.resultbar, fieldset.polls dd.poll_option_percent {
-		margin-top: 5px;
+		width: 15%;
+		white-space: nowrap;
 	}
 
 	.breadcrumbs .crumb-topic {
@@ -500,22 +530,6 @@
 		width: auto;
 		overflow: inherit;
 		text-indent: inherit;
-	}
-
-	/* Index */
-	.index-left {
-		margin-right: 0;
-		float: none;
-		overflow: inherit;
-	}
-
-	.index-right {
-		width: auto;
-		float: none;
-	}
-
-	.misc-block.advertisement {
-		display: none;
 	}
 
 	/* Post
@@ -661,6 +675,15 @@
 	.attach-comment dfn {
 		width: 100%;
 	}
+
+	#video-background {
+		display: none;
+	}
+
+	#qr_postform .panel {
+		padding: 15px 5px 25px;
+	}
+
 }
 
 /* Nav-bar */
@@ -772,10 +795,6 @@ body.topbar-fixed #wrap {
 	margin-top: auto;
 }
 
-#video-background {
-	display: none !important;
-}
-
 .post .postbody .content,
 .cp-main .post .content,
 .cp-main .pm .content {
@@ -796,33 +815,7 @@ body.topbar-fixed #wrap {
 	position: inherit; /* TODO necessary? */
 }
 
-/* Polls */
-.topic_poll .content {
-	padding: 0 10px;
-}
 
-.topic_poll .polls {
-	margin-left: 0;
-	margin-right: 0;
-}
-fieldset.polls dt {
-	text-align: left;
-}
-fieldset.polls dd.resultbar,
-fieldset.polls dd.poll_option_percent {
-	margin-top: 0;
-}
-fieldset.polls dd.resultbar {
-	width: 85%;
-}
-fieldset.polls dd.poll_option_percent {
-	width: 15%;
-	text-align: center;
-}
-
-#qr_postform .panel {
-	padding: 15px 5px 25px;
-}
 
 @media only screen and (max-width: 500px), only screen and (max-device-width: 500px) {
 	.topic_poll p.author {

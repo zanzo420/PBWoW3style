@@ -60,6 +60,7 @@ a.button2, input.button2, input.button3 {
     font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
     min-width: 20px;
     line-height: 1.5;
+    margin-top: 4px;
 }
 
 a.button1, a.button1:active,
@@ -235,8 +236,6 @@ input.search {
     width: 182px;
     height: 21px;
     line-height: 15px;
-    background: #0D1A2D url("./images/forum-menu-search-tile.gif") repeat-x scroll 0 0;
-    border: 1px solid #7F7F7F;
     border-radius: 2px;
 }
 
