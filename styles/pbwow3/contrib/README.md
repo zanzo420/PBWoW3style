@@ -13,6 +13,9 @@ Updated by @Galixte
 
 ## Changes
 
+3.2.1.5 (12-10-2017)
+- fix #16 "fixed" background 
+
 3.2.1.4 (11-10-2017)
 - moved some css to pbwow extension
 - fixed poll view
