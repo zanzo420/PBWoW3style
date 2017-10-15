@@ -89,6 +89,9 @@
 
 /* Poster contact icons
 ----------------------------------------*/
+.contact-icons a {
+	padding: 8px;
+}
 
 /* Post control buttons
 --------------------------------------------- */

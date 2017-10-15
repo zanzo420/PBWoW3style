@@ -13,6 +13,11 @@ Updated by @Galixte
 
 ## Changes
 
+3.2.1.6 (15-10-2017)
+- fix contact icon appearance
+- fix topic icon size
+- fix duplicate arrows
+
 3.2.1.5 (12-10-2017)
 - fix #16 "fixed" background 
 
