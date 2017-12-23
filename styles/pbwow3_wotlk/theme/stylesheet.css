@@ -1,0 +1,56 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			PBWoW 3 Wrath of the Lich King
+	Based on style:		PBWoW 3
+	Original author:	PayBas ( http://pbwow.com/ )
+    --------------------------------------------------------------
+*/
+@import url("common.css?v=3.2");
+@import url("colours.css?v=3.2");
+
+body.pbwow3 .logo {
+	background: url("./images/logo.png") no-repeat 50% 0;
+	background-size: 100% 100%;
+	width: 262px;
+	height: 134px;
+	margin-top: 20px;
+}
+
+body.pbwow3 #page-body:before {
+	box-shadow: 0 0 12px 6px #000000b3;
+	display: inherit;
+}
+body.pbwow3 #page-body {
+	background-color: rgba(0,0,0,0.90);
+}
+
+#video-element1 {
+	background-image: none;
+	position: absolute;
+	top: 144px;
+	right: 499px;
+}
+
+/* =Media queries
+-------------------------------------------------------------- */
+@media screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+	#page-body {
+		background: url("./images/border-bot.gif") repeat-x 0 100%,
+		url("./images/border-top.gif") repeat-x 0 0,
+		rgba(0,0,0,0.85) !important;
+	}
+}
+
+@media screen and (max-width: 859px), only screen and (max-device-width: 859px) {
+	#logo {
+		width: 210px;
+		height: 107px;
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 999px), only screen and (max-device-width: 999px) {
+	body {
+		background-image: url("./images/bg-small.jpg");
+	}
+}
