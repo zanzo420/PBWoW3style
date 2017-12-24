@@ -6,5 +6,8 @@ body {
 
 
 .headerbar {
-    min-height: 240px;
+    min-height: 210px;
+    transition-delay: unset;
+    transition-delay: inherit;
+    transition-delay: initial;
 }
