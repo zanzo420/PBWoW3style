@@ -3,3 +3,8 @@
 body {
     background: #050a12 url("./images/bg.jpg") no-repeat 49.999% 0;
 }
+
+
+.headerbar {
+    min-height: 240px;
+}
