@@ -1,19 +1,18 @@
 /*  phpBB3 Style Sheet
     --------------------------------------------------------------
-	Style name:			PBWoW 3 Wrath of the Lich King
-	Based on style:		PBWoW 3
+	Style name:			PBWoW 3 Xmas
+	Based on style:		PBWoW 3 Wrath of the Lich King
 	Original author:	PayBas ( http://pbwow.com/ )
     --------------------------------------------------------------
 */
 @import url("common.css?v=3.2");
-@import url("colours.css?v=3.2");
 
 body.pbwow3 #logo, body.pbwow3 .logo {
 	background: url("./images/logo.png") no-repeat 50% 0;
-	background-size: 100% 100%;
-	width: 262px;
-	height: 134px;
 	margin-top: 25px;
+	width: 300px;
+	height: 150px;
+	background-size: 100% 100%;
 }
 
 body.pbwow3 #page-body:before {
@@ -27,8 +26,14 @@ body.pbwow3 #page-body {
 #video-element1 {
 	background-image: none;
 	position: absolute;
-	top: 144px;
-	right: 499px;
+	top: 1px;
+	right: 407px;
+}
+#video-element2 {
+	background-image: none;
+	position: absolute;
+	top: 61px;
+	left: 519px;
 }
 
 /* =Media queries
@@ -46,19 +51,5 @@ body.pbwow3 #page-body {
 		background-image: url("./images/bg-small.jpg");
 	}
 
-	.headerbar {
-		min-height: 195px;
-		-webkit-transition-property: width height background-color font-size left top color;
-		transition-delay: 0.3s, 4ms;
-		-webkit-transition-timing-function: linear;
-	}
 }
 
-@media screen and (max-width: 700px), only screen and (max-device-width: 700px) {
-	body.pbwow3 #page-body {
-		background: url("./images/border-bot.gif") repeat-x 0 100%,
-		url("./images/border-top.gif") repeat-x 0 0,
-		rgba(0,0,0,0.85);
-
-	}
-}
