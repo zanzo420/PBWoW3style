@@ -31,9 +31,12 @@
 			{% EVENT forumlist_body_forum_row_prepend %}
 			<dl{% if forumrow.S_UNREAD_FORUM %} class="unread"{% endif %}>
 				<dt title="{{ forumrow.FORUM_FOLDER_IMG_ALT }}">
-					{% if forumrow.FORUM_IMAGE %}<span class="forum-image">{{ forumrow.FORUM_IMAGE }}</span>{% endif %}
+					{% if forumrow.FORUM_IMAGE %}
+					{% EVENT forumlist_body_forum_image_before %}
+					<span class="forum-image">{% EVENT forumlist_body_forum_image_prepend %} {forumrow.FORUM_IMAGE}{% EVENT forumlist_body_forum_image_append %}</span>
+					{% EVENT forumlist_body_forum_image_after %}
+					{% endif %}
 					<a href="{{ forumrow.U_VIEWFORUM }}" class="icon-link{% if not forumrow.FORUM_IMAGE %} no-forum-image {{ forumrow.FORUM_IMG_STYLE }}{% endif %}"></a>
-
 					{% if forumrow.subforum|length and forumrow.S_LIST_SUBFORUMS %}
 					<div class="dropdown-container dropdown-button-control">
 						<span title="{{ forumrow.L_SUBFORUM_STR }}" class="dropdown-trigger"></span>

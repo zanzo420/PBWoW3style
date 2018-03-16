@@ -20,7 +20,7 @@ ul.topiclist dl {
 }
 
 ul.topiclist li.row dl {
-	padding: 2px 0;
+	margin: 2px 0;
 }
 
 ul.topiclist dt, ul.topiclist dd {
@@ -104,6 +104,15 @@ ul.topiclist dd {
 	box-sizing: border-box;
 }
 
+ul.topiclist li.row  {
+	min-height: 43px;
+}
+
+ul.topiclist li.row dd {
+	padding: 4px 0 999px 0;
+	margin-bottom: -995px;
+}
+
 ul.topiclist dfn {
 	/* Labels for post/view counts */
 	position: absolute;
@@ -165,10 +174,12 @@ li.header dl.row-item dt .list-inner {
 }
 
 /* Forum list column styles */
+.row .list-inner { padding: 4px 0; }
+
 dl.row-item {
 	background-position: 10px 50%;		/* Position of folder icon */
 	background-repeat: no-repeat;
-	background-size: 27px;
+	background-size: 32px;
 }
 
 dl.row-item dt {
@@ -634,6 +645,7 @@ blockquote .codebox {
 /* Attachments
 ----------------------------------------*/
 .attachbox {
+	font-size: 13px;
 	float: left;
 	width: auto;
 	max-width: 100%;
