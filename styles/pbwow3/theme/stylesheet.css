@@ -96,6 +96,11 @@ ul.linklist > li.rightside {
 	margin-left: 10px;
 }
 
+.icon-mark-read {
+	margin-left: 20px !important;
+	margin-right: 15px !important;
+}
+
 ul.linklist > li a:hover {
 	text-decoration: none;
 }
