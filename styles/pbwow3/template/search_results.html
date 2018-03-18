@@ -112,7 +112,7 @@
 							{% if searchresults.TOPIC_REPLIES %}<span class="responsive-show left-box" style="display: none;">{{ lang('REPLIES') }}{{ lang('COLON') }} <strong>{{ searchresults.TOPIC_REPLIES }}</strong></span>{% endif %}
 							{% endif %}
 
-							<div class="responsive-hide">
+							<div class="responsive-hide left-box">
 								{% if searchresults.S_HAS_POLL %}<i class="icon fa-bar-chart fa-fw" aria-hidden="true"></i>{% endif %}
 								{% if searchresults.ATTACH_ICON_IMG %}<i class="icon fa-paperclip fa-fw" aria-hidden="true"></i>{% endif %}
 								{{ lang('POST_BY_AUTHOR') }} {{ searchresults.TOPIC_AUTHOR_FULL }} &raquo; {{ searchresults.FIRST_POST_TIME }} &raquo; {{ lang('IN') }} <a href="{{ searchresults.U_VIEW_FORUM }}">{{ searchresults.FORUM_TITLE }}</a>
