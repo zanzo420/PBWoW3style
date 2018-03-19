@@ -89,7 +89,8 @@
 			<div class="inner">
 
 			<div id="site-description" class="site-description">
-				<a id="logo" class="logo" href="{% if U_SITE_HOME %}{{ U_SITE_HOME }}{% else %}{{ U_INDEX }}{% endif %}" title="{% if U_SITE_HOME %}{{ lang('SITE_HOME') }}{% else %}{{ lang('INDEX') }}{% endif %}"><span class="site_logo"></span></a>
+				<a id="logo" class="logo" href="{% if U_SITE_HOME %}{{ U_SITE_HOME }}{% else %}{{ U_INDEX }}{% endif %}" title="{% if U_SITE_HOME %}{{ lang('SITE_HOME') }}{% else %}{{ lang('INDEX') }}{% endif %}">
+					<span class="site_logo"></span></a>
 				<h1>{{ SITENAME }}</h1>
 				<p>{{ SITE_DESCRIPTION }}</p>
 				<p class="skiplink"><a href="#start_here">{{ lang('SKIP') }}</a></p>

@@ -86,3 +86,9 @@ a.arrow-up, a.arrow-down, a.arrow-left, a.arrow-right {
     margin-top: 0;
 }
 
+.icon-mark:before {
+    content: "\f046";
+}
+.icon-mark-read > a:before {
+    content: "\f046";
+}

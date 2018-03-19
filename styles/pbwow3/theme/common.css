@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background: #000 url("./images/theme/wod.jpg") no-repeat 49.999% 0;
+    background: #000 url("./images/theme/wod.png") no-repeat 49.999% 0;
     padding: 0;
     overflow-y: scroll;
 }
@@ -529,6 +529,7 @@ table.info tbody th {
     margin-top: -18px;
     background: none;
     font-size: 10px;
+    margin-bottom: 3px;
 }
 
 

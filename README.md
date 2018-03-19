@@ -1,8 +1,8 @@
-## PBWoW 3 Style for phpBB 3.2.1
+## PBWoW 3 Style for phpBB 3.2.2
 
 Author @Paybas, @Sajaki
 
-Updated by @Galixte 
+Updated by @Galixte
 
 ## requirements
 - phpBB 3.2.x
@@ -12,6 +12,17 @@ Updated by @Galixte
 - http://www.avathar.be/bbdkp/viewforum.php?f=82
 
 ## Changes
+3.2.2 (16-03-2018)
+- updated for phpBB 3.2.2 (markup changes and new events)
+- fixed missing 'mark read' link in navbar
+
+3.2.1.6 (15-10-2017)
+- fix contact icon appearance
+- fix topic icon size
+- fix duplicate arrows
+
+3.2.1.5 (12-10-2017)
+- fix #16 "fixed" background 
 
 3.2.1.4 (11-10-2017)
 - moved some css to pbwow extension
@@ -66,4 +77,4 @@ Updated by @Galixte
 This application is opensource software released under the GPL.
 We request that you retain the copyright notice below.
 
-without copyrighted assets. (we keep those in a private repository). 
+

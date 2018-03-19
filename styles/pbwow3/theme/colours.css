@@ -24,7 +24,7 @@ h3 {
 }
 
 .pm .postbody h3.first {
-    color: #FFB019;
+    color: #f8b700;
     font-size: 1.6em;
 }
 
@@ -38,6 +38,7 @@ hr {
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 a 			{ color: #FFB019; }
+a 			{ color: #f8b700; }
 a:hover 	{ color: #FFFFFF; }
 a:active	{ color: #00C0FF; }
 
@@ -58,6 +59,7 @@ h3 a:hover { text-decoration: none; }
 .postlink {
 
     border-bottom-color: #FFB019;
+    border-bottom-color: #f8b700;
 }
 
 .postlink:hover {
