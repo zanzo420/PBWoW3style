@@ -16,6 +16,7 @@ Updated by @Galixte
 ## Changes
 3.2.2 (16-03-2018)
 - updated for phpBB 3.2.2
+- fix missing mark read checkbox in navbar
 
 3.2.1.6 (15-10-2017)
 - fix contact icon appearance

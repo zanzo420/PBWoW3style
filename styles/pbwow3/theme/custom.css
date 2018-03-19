@@ -106,6 +106,7 @@ Some defaults are included, like on PBWoW.com
 
 .small-icon > a:before,
 #top-bar .small-icon:before,
+.navbar .small-icon:before,
 .profile-context .user-icons a:before {
 	display: inline-block;
 	font-family: FontAwesome;

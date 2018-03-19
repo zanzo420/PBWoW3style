@@ -51,12 +51,12 @@ body.pbwow3 #page-body {
 }
 
 @media only screen and (max-width: 999px), only screen and (max-device-width: 999px) {
-	/*
+
 	body.pbwow3 {
 		background-image: url("./images/theme/wod-small.png");
 		background-position: 0 0;
 	}
-	*/
+
 	body.pbwow3.topbar {
 		background-position: 0 41px;
 	}
