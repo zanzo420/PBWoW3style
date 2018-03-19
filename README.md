@@ -1,7 +1,5 @@
 ## PBWoW 3 Style for phpBB 3.2.2
 
-### Including assets
-
 Author @Paybas, @Sajaki
 
 Updated by @Galixte
@@ -15,7 +13,8 @@ Updated by @Galixte
 
 ## Changes
 3.2.2 (16-03-2018)
-- updated for phpBB 3.2.2
+- updated for phpBB 3.2.2 (markup changes and new events)
+- fixed missing 'mark read' link in navbar
 
 3.2.1.6 (15-10-2017)
 - fix contact icon appearance
