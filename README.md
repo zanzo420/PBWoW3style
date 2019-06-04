@@ -1,4 +1,4 @@
-## PBWoW 3 Style for phpBB 3.2.2
+## PBWoW 3 Style for phpBB 3.2.7
 
 Author @Paybas, @Sajaki
 
