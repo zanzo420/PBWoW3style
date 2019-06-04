@@ -10,6 +10,8 @@ Updated by @Galixte
 
 ## Support
 - http://www.avathar.be/bbdkp/viewforum.php?f=82
+- https://www.phpbb.com/customise/db/style/pbwow3/support
+- http://www.ezcom-fr.com/viewtopic.php?f=13&t=74 (in French)
 
 ## Changes
 3.2.7 (04-06-2019)
