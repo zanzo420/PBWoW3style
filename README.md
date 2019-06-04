@@ -12,6 +12,9 @@ Updated by @Galixte
 - http://www.avathar.be/bbdkp/viewforum.php?f=82
 
 ## Changes
+3.2.7 (04-06-2019)
+- updated for phpBB 3.2.7 (new events)
+
 3.2.2 (16-03-2018)
 - updated for phpBB 3.2.2 (markup changes and new events)
 - fixed missing 'mark read' link in navbar
