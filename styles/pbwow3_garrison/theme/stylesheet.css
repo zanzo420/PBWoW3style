@@ -1,24 +1,19 @@
 /*  phpBB3 Style Sheet
     --------------------------------------------------------------
-	Style name:			PBWoW 3 Garrison
+	Style name:			PBWoW 3 Battlecry
 	Based on style:		PBWoW 3
 	Original author:	PayBas ( http://pbwow.com/ )
     --------------------------------------------------------------
 */
+@import url("common.css?v=3.2");
 
-body {
-	background-image: url("./images/bg.jpg");
-	background-color: #030309;
+body.pbwow3 #page-body:before {
+	box-shadow: 0 0 12px 6px #000000b3;
+	display: inherit;
 }
-
-.navblock {
+body.pbwow3 #page-body {
 	background-color: rgba(0,0,0,0.75);
 }
-
-#page-body {
-	background-color: rgba(0,0,0,0.75);
-}
-
 #video-element1 {
 	background-image: none;
 	position: absolute;
@@ -32,10 +27,12 @@ body {
 	left: 468px;
 }
 
-/* =Media queries
+/* Media queries
 -------------------------------------------------------------- */
 @media only screen and (max-width: 999px), only screen and (max-device-width: 999px) {
-	body {
-		background-image: url("./images/bg-small.jpg");
+	body.pbwow3 {
+		background-image: url("./images/theme/bg-small.jpg");
+		background-position: 0 0;
 	}
 }
+

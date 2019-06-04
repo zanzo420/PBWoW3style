@@ -1,10 +1,6 @@
-/* Custom CSS for PBWoW
-
+/* Custom CSS for PBWoW 3.2
 You can customize whatever you want.
 Some defaults are included, like on PBWoW.com
-
-Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Awesome/icons/
-
 */
 
 
@@ -17,6 +13,10 @@ Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Aweso
 .blizz .bg2 .postprofile { background-image: url("./images/avatar-bg2-blizz.gif"); }
 .red .bg1 .postprofile { background-image: url("./images/avatar-bg1-red.jpg"); }
 .red .bg2 .postprofile { background-image: url("./images/avatar-bg2-red.jpg"); }
+
+.propass .postprofile .avatar {
+   overflow: visible;
+}
 
 .propass .postprofile .avatar:after {
 	background-image: url("./images/propass.gif");
@@ -89,6 +89,54 @@ Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Aweso
 
 .mvp .content { color: #5DF644; }
 .mvp .content strong { color: #FFF; }
+
+
+/* Icon images
+--------------------------------------------- */
+.small-icon {
+	background: none !important;
+	padding: 0;
+	position: relative;
+}
+
+.small-icon > a {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.small-icon > a:before,
+#top-bar .small-icon:before,
+.navbar .small-icon:before,
+.profile-context .user-icons a:before {
+	display: inline-block;
+	font-family: FontAwesome;
+	color: #888;
+	text-shadow: 0 0 5px #000;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: inherit;
+	text-decoration: none;
+	padding-right: 3px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.small-icon > a:hover:before {
+	color: #FFF;
+	text-shadow: 0 0 16px #009CFF;
+}
+
+.dropdown-contents .small-icon > a:before {
+	width: 1.28571em;
+	text-align: center;
+}
+
+#top-bar .small-icon:before,
+#top-bar .small-icon.link > a:before {
+	color: inherit;
+	padding-right: 5px;
+}
 
 
 /* Top-bar links

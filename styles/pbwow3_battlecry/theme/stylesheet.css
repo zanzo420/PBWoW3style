@@ -5,19 +5,15 @@
 	Original author:	PayBas ( http://pbwow.com/ )
     --------------------------------------------------------------
 */
+@import url("common.css?v=3.2");
 
-body {
-	background-image: url("./images/bg.jpg");
+body.pbwow3 #page-body:before {
+	box-shadow: 0 0 12px 6px #000000b3;
+	display: inherit;
 }
-
-#page-body {
+body.pbwow3 #page-body {
 	background-color: rgba(0,0,0,0.90);
 }
-
-#page-header .navbar {
-	background: rgba(0,0,0,0.75);
-}
-
 #video-element1 {
 	background-image: none;
 	position: absolute;
@@ -31,10 +27,12 @@ body {
 	left: 522px;
 }
 
-/* =Media queries
+/* Media queries
 -------------------------------------------------------------- */
 @media only screen and (max-width: 999px), only screen and (max-device-width: 999px) {
-	body {
-		background-image: url("./images/bg-small.jpg");
+	body.pbwow3 {
+		background-image: url("./images/theme/bg-small.jpg");
+		background-position: 0 0;
 	}
 }
+

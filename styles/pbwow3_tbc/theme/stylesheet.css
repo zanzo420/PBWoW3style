@@ -5,20 +5,24 @@
 	Original author:	PayBas ( http://pbwow.com/ )
     --------------------------------------------------------------
 */
+@import url("common.css?v=3.2");
+@import url("colours.css?v=3.2");
 
-body {
-	background-image: url("./images/bg.jpg");
-}
-
-#logo {
+body.pbwow3 #logo, body.pbwow3 .logo {
+	margin-top: 15px;
 	background: url("./images/logo.png") no-repeat 50% 0;
 	width: 280px;
 	height: 130px;
 	background-size: 100% 100%;
 }
 
-.navblock {
-	background: rgba(0,0,0,0.75);
+body.pbwow3 #page-body:before {
+	box-shadow: 0 0 12px 6px #000000b3;
+	display: inherit;
+}
+
+body.pbwow3 #page-body {
+	background-color: rgba(0,0,0,0.75);
 }
 
 #video-element {
@@ -28,10 +32,11 @@ body {
 	left: 427px;
 }
 
-/* =Media queries
+/* Media queries
 -------------------------------------------------------------- */
+
 @media screen and (max-width: 859px), only screen and (max-device-width: 859px) {
-	#logo {
+	body.pbwow3 #logo, body.pbwow3 .logo {
 		width: 224px;
 		height: 104px;
 		margin-top: 10px;
@@ -39,7 +44,16 @@ body {
 }
 
 @media only screen and (max-width: 999px), only screen and (max-device-width: 999px) {
-	body {
+	body.pbwow3 {
 		background-image: url("./images/bg-small.jpg");
+		background-position: 0 0;
+	}
+
+	.headerbar {
+		min-height: 195px;
+		-webkit-transition-property: width height background-color font-size left top color;
+		transition-delay: 0.3s, 4ms;
+		-webkit-transition-timing-function: linear;
 	}
 }
+
