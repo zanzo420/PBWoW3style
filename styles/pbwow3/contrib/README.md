@@ -1,4 +1,4 @@
-## PBWoW 3 Style for phpBB 3.2.2
+## PBWoW 3 Style for phpBB 3.2.8
 
 ### Including assets
 
@@ -14,6 +14,12 @@ Updated by @Galixte
 - http://www.avathar.be/bbdkp/viewforum.php?f=82
 
 ## Changes
+3.2.8 (20-10-2019)
+- updated for phpBB 3.2.8 (new events)
+
+3.2.7 (04-06-2019)
+- updated for phpBB 3.2.7 (new events)
+
 3.2.2 (16-03-2018)
 - updated for phpBB 3.2.2
 - fix missing mark read checkbox in navbar
