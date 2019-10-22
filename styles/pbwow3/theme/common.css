@@ -558,6 +558,15 @@ table.info tbody th {
 .copyright {
     color: #555;
     position: relative;
+	font-size: 10px;
+	text-align: center;
+	padding: 10px;
+}
+
+.footer-row {
+	font-size: 10px;
+	line-height: 1.8;
+	margin: 0;
 }
 
 

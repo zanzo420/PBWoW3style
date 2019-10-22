@@ -1,4 +1,4 @@
-## PBWoW 3 Style for phpBB 3.2.2
+## PBWoW 3 Style for phpBB 3.2.8
 
 Author @Paybas, @Sajaki
 
@@ -10,8 +10,16 @@ Updated by @Galixte
 
 ## Support
 - http://www.avathar.be/bbdkp/viewforum.php?f=82
+- https://www.phpbb.com/customise/db/style/pbwow3/support
+- http://www.ezcom-fr.com/viewtopic.php?f=13&t=74 (in French)
 
 ## Changes
+3.2.8 (20-10-2019)
+- updated for phpBB 3.2.8 (new events)
+
+3.2.7 (04-06-2019)
+- updated for phpBB 3.2.7 (new events)
+
 3.2.2 (16-03-2018)
 - updated for phpBB 3.2.2 (markup changes and new events)
 - fixed missing 'mark read' link in navbar
