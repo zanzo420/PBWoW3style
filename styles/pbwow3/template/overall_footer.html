@@ -11,7 +11,7 @@
 		{{ CREDIT_LINE }}
 		{% if TRANSLATION_INFO %}<br />{{ TRANSLATION_INFO }}{% endif %}
 		{% EVENT overall_footer_copyright_append %}
-		<p class="footer-row">
+		<p class="footer-row" role="menu">
 			<a class="footer-link" href="{{ U_PRIVACY }}" title="{{ lang('PRIVACY_LINK') }}" role="menuitem">
 				<span class="footer-link-text">{{ lang('PRIVACY_LINK') }}</span>
 			</a>
@@ -21,12 +21,12 @@
 			</a>
 		</p>
 		{% if DEBUG_OUTPUT %}
-		<p class="footer-row">
+		<p class="footer-row" role="menu">
 			<span class="footer-info">{{ DEBUG_OUTPUT }}</span>
 		</p>
 		{% endif %}
 		{% if U_ACP %}
-		<p class="footer-row">
+		<p class="footer-row" role="menu">
 			<a class="footer-link text-strong" href="{{ U_ACP }}">{{ lang('ACP') }}</a>
 		</p>
 		{% endif %}

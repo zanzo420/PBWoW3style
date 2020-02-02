@@ -1,5 +1,5 @@
 
-## pbwow3_garrison
+## pbwow3_wotlk
 
 Author @Paybas, @Sajaki
 

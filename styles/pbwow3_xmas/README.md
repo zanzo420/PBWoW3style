@@ -1,7 +1,7 @@
 
-## pbwow3_garrison
+## pbwow3_xmas
 
-Author @Paybas, @Sajaki
+Author @Sajaki
 
 ## requirements
 - pbWow 3.2.9 Base style 
