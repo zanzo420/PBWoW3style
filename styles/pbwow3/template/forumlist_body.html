@@ -33,7 +33,7 @@
 				<dt title="{{ forumrow.FORUM_FOLDER_IMG_ALT }}">
 					{% if forumrow.FORUM_IMAGE %}
 					{% EVENT forumlist_body_forum_image_before %}
-					<span class="forum-image">{% EVENT forumlist_body_forum_image_prepend %} {forumrow.FORUM_IMAGE}{% EVENT forumlist_body_forum_image_append %}</span>
+					<span class="forum-image">{% EVENT forumlist_body_forum_image_prepend %} {{ forumrow.FORUM_IMAGE }}{% EVENT forumlist_body_forum_image_append %}</span>
 					{% EVENT forumlist_body_forum_image_after %}
 					{% endif %}
 					<a href="{{ forumrow.U_VIEWFORUM }}" class="icon-link{% if not forumrow.FORUM_IMAGE %} no-forum-image {{ forumrow.FORUM_IMG_STYLE }}{% endif %}"></a>
