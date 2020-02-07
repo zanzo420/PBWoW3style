@@ -12,8 +12,10 @@
 
 			{% for navlinks in loops.navlinks %}
 			{% EVENT overall_header_navlink_prepend %}
-			<span class="crumb" {{ definition.MICRODATA }}{% if navlinks.MICRODATA %} {{ navlinks.MICRODATA }}{% endif %}><a href="{{ navlinks.U_VIEW_FORUM }}" itemtype="https://schema.org/Thing" itemscope itemprop="item"><span itemprop="name">{{ navlinks.FORUM_NAME }}</span></a><meta itemprop="position" content="{{ navlink_position }}{% set navlink_position = navlink_position + 1 %}" /></span>
-			<span class="crumb" {{ definition.MICRODATA }}{% if navlinks.MICRODATA %} {{ navlinks.MICRODATA }}{% endif %}><a href="{{ navlinks.U_VIEW_FORUM }}" itemprop="url"><span itemprop="title">{{ navlinks.FORUM_NAME }}</span></a></span>
+			<span class="crumb" {{ definition.MICRODATA }}{% if navlinks.MICRODATA %} {{ navlinks.MICRODATA }}{% endif %}>
+				<a href="{{ navlinks.U_VIEW_FORUM }}" itemtype="https://schema.org/Thing" itemscope itemprop="item"><span itemprop="name">{{ navlinks.FORUM_NAME }}</span></a>
+				<meta itemprop="position" content="{{ navlink_position }}{% set navlink_position = navlink_position + 1 %}" />
+			</span>
 			{% EVENT overall_header_navlink_append %}
 			{% endfor %}
 			{% if S_VIEWTOPIC %}<span class="crumb crumb-topic"><a href="{{ U_VIEW_TOPIC }}">{{ TOPIC_TITLE }}</a></span>{% endif %}
